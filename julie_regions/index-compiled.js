@@ -6,8 +6,7 @@ const jsontocsv = require('json2csv').Parser;
 const fs = require('fs');
 
 // starting files
-let park_links_csv = './julie_regions/park_links.csv';
-let state_links_csv = './julie_regions/state_links.csv';
+let management_plans_csv = './julie_regions/management_plans.csv';
 
 /**
   * Function that takes the files through a series of steps to convert them
@@ -22,18 +21,18 @@ function formatJson(json) {
 
     for (let row of json) {
         let region_id = row.region_id;
-        let field_guide = {
+        let management_plan = {
             url: row.url,
-            id: row.id,
+            plan_year: row.plan_year,
             title_en: row.title_en,
             title_es: row.title_es
         };
         if (typeof sortedByRegion[region_id] === 'undefined') {
             sortedByRegion[region_id] = {
-                field_guides: [field_guide]
+                management_plan: [management_plan]
             };
         } else {
-            sortedByRegion[region_id].field_guides.push(field_guide);
+            sortedByRegion[region_id].management_plan.push(management_plan);
         }
     }
 
@@ -41,8 +40,8 @@ function formatJson(json) {
     let formatted_for_csv = [];
 
     for (let region_id in sortedByRegion) {
-        let field_guides = sortedByRegion[region_id];
-        let attributes = JSON.stringify(field_guides);
+        let management_plans = sortedByRegion[region_id];
+        let attributes = JSON.stringify(management_plans);
         formatted_for_csv.push({
             region_id: region_id,
             attributes: attributes
@@ -56,19 +55,11 @@ function formatJson(json) {
 }
 
 // reads the CSVs you sent me
-csvtojson().fromFile(park_links_csv).then(jsonObj => {
+csvtojson().fromFile(management_plans_csv).then(jsonObj => {
     // run formatJson() on the CSV to get a csv text
     let output = formatJson(jsonObj);
     // write csv text to a file
-    fs.writeFile('./julie_regions/park_links_converted.csv', output, err => {
-        if (err) console.log(err);
-    });
-});
-
-// same, but for state links
-csvtojson().fromFile(state_links_csv).then(jsonObj => {
-    let output = formatJson(jsonObj);
-    fs.writeFile('./julie_regions/state_links_converted.csv', output, err => {
+    fs.writeFile('./julie_regions/management_plans_converted.csv', output, err => {
         if (err) console.log(err);
     });
 });
