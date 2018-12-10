@@ -87,6 +87,105 @@ const sources = [
   ]
 ];
 
+const sources2 = [
+  // source 1
+  [
+    {
+      homeId: 11,
+      city: "Atlanta",
+      neighborhood: "Buckhead"
+    },
+    {
+      homeId: 118,
+      city: "Atlanta",
+      neighborhood: "Buckhead"
+    },
+    {
+      homeId: 119,
+      city: "Atlanta",
+      neighborhood: "Buckhead"
+    },
+    {
+      homeId: 211,
+      city: "Boston",
+      neighborhood: "Charlestown"
+    },
+    {
+      homeId: 111,
+      city: "Nashville",
+      neighborhood: "Brentwood"
+    },
+    {
+      homeId: 311,
+      city: "Chicago",
+      neighborhood: "Wrigleyville"
+    },
+    {
+      homeId: 411,
+      city: "New York",
+      neighborhood: "Melrose"
+    }
+  ],
+
+  // source 2
+  [
+    {
+      homeId: 12,
+      city: "Atlanta",
+      neighborhood: "Inman Park"
+    },
+    {
+      homeId: 212,
+      city: "Boston",
+      neighborhood: "Back Bay"
+    },
+    {
+      homeId: 112,
+      city: "Nashville",
+      neighborhood: "Buena Vista"
+    },
+    {
+      homeId: 312,
+      city: "Chicago",
+      neighborhood: "Hyde Park"
+    },
+    {
+      homeId: 412,
+      city: "New York",
+      neighborhood: "Williamsburg"
+    }
+  ],
+
+  // source 3
+  [
+    {
+      homeId: 13,
+      city: "Atlanta",
+      neighborhood: "Lakewood"
+    },
+    {
+      homeId: 213,
+      city: "Boston",
+      neighborhood: "Dudley Square"
+    },
+    {
+      homeId: 113,
+      city: "Nashville",
+      neighborhood: "Germantown"
+    },
+    {
+      homeId: 313,
+      city: "Chicago",
+      neighborhood: "Avondale"
+    },
+    {
+      homeId: 413,
+      city: "New York",
+      neighborhood: "Crown Heights"
+    }
+  ]
+];
+
 const output = [
   [
     [
@@ -208,7 +307,6 @@ const output = [
  */
 const combineLists = (source1, source2, source3) => {
   const homesById = {};
-  const homesByLocation = {};
 
   const getCityPriority = cityName => {
     let citySort = 4;
@@ -226,25 +324,11 @@ const combineLists = (source1, source2, source3) => {
     return citySort;
   };
 
-  const addToHomesByLocation = home => {
-    if (!homesByLocation[home.city]) {
-      homesByLocation[home.city] = {
-          [home.neighborhood]: [home]
-      };
-    } else if (!homesByLocation[home.city][home.neighborhood]) {
-        homesByLocation[home.city][home.neighborhood] = [home];
-    } else {
-        homesByLocation[home.city][home.neighborhood].push(home);
-    }
-
-  };
-
   // Get combined list of unique houses
   const combined = [...source1, ...source2, ...source3].filter(home => {
     const homeId = home.homeId;
     if (!homesById[homeId]) {
       homesById[homeId] = home;
-      addToHomesByLocation(home);
       return true;
     }
     return false;
@@ -265,21 +349,40 @@ const combineLists = (source1, source2, source3) => {
   });
 
   // Split into appropriate group format
-  const splitGroups = combined.reduce(
-    (previousValue, currentValue, currentIndex, array) => {
-      let groupNumber = Math.floor(currentIndex / 5);
-      if (!previousValue[groupNumber]) {
-        previousValue.push([]);
+  const groupByCityNeighborhood = combined.reduce(
+    (accumulated, currentValue, currentIndex, array) => {
+      if (accumulated.length) {
+        let lastGroup = accumulated[accumulated.length - 1];
+        let lastValue = lastGroup[lastGroup.length - 1];
+        if (
+          currentValue.city === lastValue.city &&
+          currentValue.neighborhood === lastValue.neighborhood
+        ) {
+          lastGroup.push(currentValue);
+          return accumulated;
+        }
       }
-      previousValue[groupNumber].push([currentValue]);
-      return previousValue;
+
+      return [...accumulated, [currentValue]];
     },
-    [[]]
+    []
   );
 
-  return splitGroups;
+  const splitByFive = groupByCityNeighborhood.reduce(
+    (accumulated, currentValue, currentIndex, array) => {
+      let groupNumber = Math.floor(currentIndex / 5);
+      if (!accumulated[groupNumber]) {
+        accumulated.push([]);
+      }
+      accumulated[groupNumber].push(currentValue);
+      return accumulated;
+    },
+    []
+  );
+
+    return splitByFive;
 };
 
 const myOutput = combineLists(sources[0], sources[1], sources[2]);
 
-// console.log(JSON.stringify(myOutput) === JSON.stringify(output));
+console.log(JSON.stringify(myOutput) === JSON.stringify(output));
