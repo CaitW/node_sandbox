@@ -7,7 +7,8 @@
     "julie_regions": "npx babel ./julie_regions/index.js --out-file ./julie_regions/index-compiled.js && node ./julie_regions/index-compiled.js",
     "get_articles": "npx babel ./get_articles/index.js --out-file ./get_articles/index-compiled.js && node ./get_articles/index-compiled.js",
     "get_jobs": "npx babel ./get_jobs/index.js --out-file ./get_jobs/index-compiled.js && node ./get_jobs/index-compiled.js",
-    "challenge": "npx babel ./challenge/index.js --out-file ./challenge/index-compiled.js && node ./challenge/index-compiled.js"
+    "challenge": "npx babel ./challenge/index.js --out-file ./challenge/index-compiled.js && node ./challenge/index-compiled.js",
+    "knock": "npx babel ./knock/index.js --out-file ./knock/index-compiled.js && node ./knock/index-compiled.js"
   },
   "author": "",
   "license": "ISC",
