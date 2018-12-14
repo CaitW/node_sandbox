@@ -348,9 +348,9 @@ const combineLists = (source1, source2, source3) => {
     return cityAPriority - cityBPriority;
   });
 
-  // Split into appropriate group format
+  // Split into arrays that group homes with same city, neighborhood
   const groupByCityNeighborhood = combined.reduce(
-    (accumulated, currentValue, currentIndex, array) => {
+    (accumulated, currentValue) => {
       if (accumulated.length) {
         let lastGroup = accumulated[accumulated.length - 1];
         let lastValue = lastGroup[lastGroup.length - 1];
@@ -368,8 +368,9 @@ const combineLists = (source1, source2, source3) => {
     []
   );
 
+  // Split into groups of 5
   const splitByFive = groupByCityNeighborhood.reduce(
-    (accumulated, currentValue, currentIndex, array) => {
+    (accumulated, currentValue, currentIndex) => {
       let groupNumber = Math.floor(currentIndex / 5);
       if (!accumulated[groupNumber]) {
         accumulated.push([]);
@@ -380,7 +381,7 @@ const combineLists = (source1, source2, source3) => {
     []
   );
 
-    return splitByFive;
+  return splitByFive;
 };
 
 const myOutput = combineLists(sources[0], sources[1], sources[2]);

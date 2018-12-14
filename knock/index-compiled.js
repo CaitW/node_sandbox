@@ -75,11 +75,11 @@ const sources2 = [
   city: "Atlanta",
   neighborhood: "Buckhead"
 }, {
-  homeId: 1888,
+  homeId: 118,
   city: "Atlanta",
   neighborhood: "Buckhead"
 }, {
-  homeId: 1891,
+  homeId: 119,
   city: "Atlanta",
   neighborhood: "Buckhead"
 }, {
@@ -215,7 +215,6 @@ const output = [[[{
  */
 const combineLists = (source1, source2, source3) => {
   const homesById = {};
-  const homesByLocation = {};
 
   const getCityPriority = cityName => {
     let citySort = 4;
@@ -233,30 +232,15 @@ const combineLists = (source1, source2, source3) => {
     return citySort;
   };
 
-  const addToHomesByLocation = home => {
-    if (!homesByLocation[home.city]) {
-      homesByLocation[home.city] = {
-        [home.neighborhood]: [home]
-      };
-    } else if (!homesByLocation[home.city][home.neighborhood]) {
-      homesByLocation[home.city][home.neighborhood] = [home];
-    } else {
-      homesByLocation[home.city][home.neighborhood].push(home);
-    }
-  };
-
   // Get combined list of unique houses
   const combined = [...source1, ...source2, ...source3].filter(home => {
     const homeId = home.homeId;
     if (!homesById[homeId]) {
       homesById[homeId] = home;
-      addToHomesByLocation(home);
       return true;
     }
     return false;
   });
-
-  console.log(JSON.stringify(homesByLocation));
 
   // Sort unique home list by city, prioritizing some cities, then neighborhood
   combined.sort((a, b) => {
@@ -272,19 +256,33 @@ const combineLists = (source1, source2, source3) => {
     return cityAPriority - cityBPriority;
   });
 
-  // Split into appropriate group format
-  const splitGroups = combined.reduce((previousValue, currentValue, currentIndex, array) => {
-    let groupNumber = Math.floor(currentIndex / 5);
-    if (!previousValue[groupNumber]) {
-      previousValue.push([]);
+  // Split into arrays that group homes with same city, neighborhood
+  const groupByCityNeighborhood = combined.reduce((accumulated, currentValue) => {
+    if (accumulated.length) {
+      let lastGroup = accumulated[accumulated.length - 1];
+      let lastValue = lastGroup[lastGroup.length - 1];
+      if (currentValue.city === lastValue.city && currentValue.neighborhood === lastValue.neighborhood) {
+        lastGroup.push(currentValue);
+        return accumulated;
+      }
     }
-    previousValue[groupNumber].push([currentValue]);
-    return previousValue;
-  }, [[]]);
 
-  return splitGroups;
+    return [...accumulated, [currentValue]];
+  }, []);
+
+  // Split into groups of 5
+  const splitByFive = groupByCityNeighborhood.reduce((accumulated, currentValue, currentIndex) => {
+    let groupNumber = Math.floor(currentIndex / 5);
+    if (!accumulated[groupNumber]) {
+      accumulated.push([]);
+    }
+    accumulated[groupNumber].push(currentValue);
+    return accumulated;
+  }, []);
+
+  return splitByFive;
 };
 
-const myOutput = combineLists(sources2[0], sources2[1], sources2[2]);
+const myOutput = combineLists(sources[0], sources[1], sources[2]);
 
-// console.log(JSON.stringify(myOutput) === JSON.stringify(output));
+console.log(JSON.stringify(myOutput) === JSON.stringify(output));
