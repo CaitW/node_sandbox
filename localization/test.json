@@ -1,0 +1,4 @@
+
+> sandbox@1.0.0 localization /home/cw789/Documents/repositories/node-sandbox
+> npx babel ./localization/index.js --out-file ./localization/index-compiled.js && node ./localization/index-compiled.js
+

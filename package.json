@@ -8,7 +8,8 @@
     "get_articles": "npx babel ./get_articles/index.js --out-file ./get_articles/index-compiled.js && node ./get_articles/index-compiled.js",
     "get_jobs": "npx babel ./get_jobs/index.js --out-file ./get_jobs/index-compiled.js && node ./get_jobs/index-compiled.js",
     "challenge": "npx babel ./challenge/index.js --out-file ./challenge/index-compiled.js && node ./challenge/index-compiled.js",
-    "knock": "npx babel ./knock/index.js --out-file ./knock/index-compiled.js && node ./knock/index-compiled.js"
+    "knock": "npx babel ./knock/index.js --out-file ./knock/index-compiled.js && node ./knock/index-compiled.js",
+    "localization": "npx babel ./localization/index.js --out-file ./localization/index-compiled.js && node ./localization/index-compiled.js"
   },
   "author": "",
   "license": "ISC",
