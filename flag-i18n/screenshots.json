@@ -1,0 +1,73 @@
+{
+  "files.form-landing.png": [
+    "my-datasets",
+    "upload-data",
+    "uploader",
+    "basic-information",
+    "upload-files",
+    "match-columns",
+    "review-geometry",
+    "metadata",
+    "taxonomic-group",
+    "files-form:basic-info:form:taxonomic-group-hint",
+    "dataset-type",
+    "files-form:basic-info:form:occurrence-or-inventory",
+    "next",
+    "instructions",
+    "files-form:basic-info:instructions:text-part-1",
+    "files-form:basic-info:instructions:text-picking-taxonomic-group-title",
+    "files-form:basic-info:instructions:text-picking-taxonomic-group-description",
+    "files-form:basic-info:instructions:text-picking-dataset-type-title",
+    "files-form:basic-info:instructions:text-picking-dataset-type-description"
+  ],
+  "files-form-upload-step2-occurrence.png": [
+    "my-datasets",
+    "upload-data",
+    "uploader",
+    "basic-information",
+    "upload-files",
+    "match-columns",
+    "review-geometry",
+    "metadata",
+    "files-form:upload-step:title",
+    "back",
+    "preparing-data-for-upload",
+    "files-form:upload-step:instructions:data-prep-description",
+    "files-form:upload-step:instructions:occurence",
+    "additional-information",
+    "additional-columns",
+    "additional-information-description",
+    "troubleshooting",
+    "files-form:upload-step:instructions:troubleshooting"
+  ],
+  "files-form-upload-step-3-match-columns.png": [
+    "my-datasets",
+    "upload-data",
+    "uploader",
+    "basic-information",
+    "upload-files",
+    "match-columns",
+    "review-geometry",
+    "metadata",
+    "files-form:match-columns-step:form:single-file-info",
+    "files-form:match-columns-step:instructions:overview",
+    "files-form:match-columns-step:instructions:occurrence",
+    "files-form:match-columns-step:instructions:assurance"
+  ],
+  "files-form-step-3-match-columns-dialog.png": [
+    "match-columns",
+    "match-columns-dialog-info",
+    "match-columns-dialog-match-statement",
+    "cancel",
+    "done"
+  ],
+  "files-form-step-3-match-columns-matched.png": [
+    "files-form:match-columns-step:form:single-file-info",
+    "columns-matched"
+  ],
+  "files-form-step-3-match-error": [
+    "files-form:match-columns-step:form:could-not-process-data",
+    "files-form:match-columns-step:form:fix-match-errors",
+    "files-form:match-columns-step:form:matching-errors-list"
+  ]
+}
