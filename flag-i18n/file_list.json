@@ -1,0 +1,18 @@
+[
+  "../upload/src/app/components/metadata-sections/title-section/title-section.component.html",
+  "../upload/src/app/components/metadata-sections/temporal-coverage-section/temporal-coverage-section.component.html",
+  "../upload/src/app/components/metadata-sections/taxonomic-coverage-section/taxonomic-coverage-section.component.html",
+  "../upload/src/app/components/metadata-sections/survey-protocol-section/survey-protocol-section.component.html",
+  "../upload/src/app/components/metadata-sections/survey-dates-section/survey-dates-section.component.html",
+  "../upload/src/app/components/metadata-sections/sampling-description-section/sampling-description-section.component.html",
+  "../upload/src/app/components/metadata-sections/release-policy-section/release-policy-section.component.html",
+  "../upload/src/app/components/metadata-sections/quality-control-section/quality-control-section.component.html",
+  "../upload/src/app/components/metadata-sections/permissions-section/permissions-section.component.html",
+  "../upload/src/app/components/metadata-sections/methods-section/methods-section.component.html",
+  "../upload/src/app/components/metadata-sections/license-section/license-section.component.html",
+  "../upload/src/app/components/metadata-sections/geographic-coverage-inventory-section/geographic-coverage-inventory-section.component.html",
+  "../upload/src/app/components/metadata-sections/general-section/general-section.component.html",
+  "../upload/src/app/components/metadata-sections/completeness-section/completeness-section.component.html",
+  "../upload/src/app/components/metadata-sections/citation-section/citation-section.component.html",
+  "../upload/src/app/components/metadata-sections/citation-required-section/citation-required-section.component.html"
+]
