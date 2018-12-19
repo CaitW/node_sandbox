@@ -11,7 +11,8 @@
     "knock": "npx babel ./knock/index.js --out-file ./knock/index-compiled.js && node ./knock/index-compiled.js",
     "localization": "npx babel ./localization/index.js --out-file ./localization/index-compiled.js && node ./localization/index-compiled.js",
     "localization_move_config": "npx babel ./localization_move_config/index.js --out-file ./localization_move_config/index-compiled.js && node ./localization_move_config/index-compiled.js",
-    "flag-i18n": "npx babel ./flag-i18n/index.js --out-file ./flag-i18n/index-compiled.js && node ./flag-i18n/index-compiled.js"
+    "flag-i18n": "npx babel ./flag-i18n/index.js --out-file ./flag-i18n/index-compiled.js && node ./flag-i18n/index-compiled.js",
+    "knock2": "npx babel ./knock2/index.js --out-file ./knock2/index-compiled.js && node ./knock2/index-compiled.js"
   },
   "author": "",
   "license": "ISC",
