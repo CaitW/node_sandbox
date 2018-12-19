@@ -153,8 +153,6 @@ function isEqual(o1, o2) {
         return false;
     }
 
-    // console.log("key lengths equal");
-
     // 2. Make sure the keys in o1 match the keys in o2
     keys1.forEach((element) => {
         if (keys2.indexOf(element) === -1) {
@@ -162,37 +160,26 @@ function isEqual(o1, o2) {
         }
     });
 
-    // console.log("keys match");
-
-    // Compare values
+    // 3. Compare values
     for(let key of keys1) {
         let key1value = o1[key];
         let key2value = o2[key];
 
-        // console.log(" ");
-        // console.log("key: ", key)
-        // console.log("value1: ", key1value)
-        // console.log("value2: ", key2value)
-
-        // If the values are not equal, and are objects, compare using isEqual
+        // 3a. If the values are not equal
         if (key1value !== key2value) {
-            // check for null
-            if((key1value === null) !== (key2value === null)) {
-                return false;
-            }
-            // if typeof key1value and key2value are objects, and not null, check recursively
-            // for equivalency
+            // 3a-1. If typeof both === object, check recursively for equivalency
             if (typeof key1value === "object" && typeof key2value === "object") {
-                // console.log("(recursing)");
                 if (!isEqual(key1value, key2value)) {
-                    // console.log("objects not equivalent");
                     return false;
                 }
+            // 3a-2. All other schenarios, assume unequivalent
             } else {
                 return false;
             }
         }
     }
+
+    // If we haven't hit a `return false` yet, then objects must be equivalent
     return true;
 }
 
