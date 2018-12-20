@@ -1,0 +1,620 @@
+{
+  "delete-dataset-title": [
+    "../upload/src/app/components/delete-dataset-modal/delete-dataset-modal.component.html"
+  ],
+  "delete-dataset-prompt": [
+    "../upload/src/app/components/delete-dataset-modal/delete-dataset-modal.component.html"
+  ],
+  "no-datasets-prompt": [
+    "../upload/src/app/pages/dataset-list-page/dataset-list-page.component.html"
+  ],
+  "c18dd7646e35e3f8fd53ad75161aa76e4537650e": [],
+  "coordinate-type-modal:coordinate-position": [
+    "../upload/src/app/components/coordinate-type-modal/coordinate-type-modal.component.html"
+  ],
+  "coordinate-type-modal:size-measurement": [
+    "../upload/src/app/components/coordinate-type-modal/coordinate-type-modal.component.html"
+  ],
+  "coordinate-type-modal:size-measurement-radius": [
+    "../upload/src/app/components/coordinate-type-modal/coordinate-type-modal.component.html"
+  ],
+  "coordinate-type-modal:size-measurement-area": [
+    "../upload/src/app/components/coordinate-type-modal/coordinate-type-modal.component.html"
+  ],
+  "coordinate-type-modal:specify-size": [
+    "../upload/src/app/components/coordinate-type-modal/coordinate-type-modal.component.html"
+  ],
+  "coordinate-type-modal:size-area": [
+    "../upload/src/app/components/coordinate-type-modal/coordinate-type-modal.component.html"
+  ],
+  "coordinate-type-modal:size-radius": [
+    "../upload/src/app/components/coordinate-type-modal/coordinate-type-modal.component.html"
+  ],
+  "coordinate-type-modal:size-hint": [
+    "../upload/src/app/components/coordinate-type-modal/coordinate-type-modal.component.html"
+  ],
+  "coordinate-type-modal:square:edge-length": [
+    "../upload/src/app/components/coordinate-type-modal/coordinate-type-modal.component.html"
+  ],
+  "add-range-map": [
+    "../upload/src/app/pages/dataset-detail-page/dataset-detail-page.component.html"
+  ],
+  "finalize": [
+    "../upload/src/app/pages/range-map-finalize/range-map-finalize.component.html",
+    "../upload/src/app/pages/dataset-detail-page/dataset-detail-page.component.html",
+    "../upload/src/app/components/range-map-finalize-modal/range-map-finalize-modal.component.html",
+    "../upload/src/app/components/finalize-dataset-modal/finalize-dataset-modal.component.html"
+  ],
+  "harmonize": [
+    "../upload/src/app/pages/dataset-detail-page/dataset-detail-page.component.html",
+    "../upload/src/app/components/harmonizer-instructions-modal/harmonizer-instructions-modal.component.html"
+  ],
+  "dataset-detail-no-features": [
+    "../upload/src/app/pages/dataset-detail-page/dataset-detail-page.component.html"
+  ],
+  "dataset-detail-dataset-not-finalized-alert": [
+    "../upload/src/app/pages/dataset-detail-page/dataset-detail-page.component.html"
+  ],
+  "dataset-detail-private-permissions-alert": [
+    "../upload/src/app/pages/dataset-detail-page/dataset-detail-page.component.html"
+  ],
+  "overview": [
+    "../upload/src/app/pages/dataset-detail-page/dataset-detail-page.component.html"
+  ],
+  "map": [
+    "../upload/src/app/pages/dataset-detail-page/dataset-detail-page.component.html"
+  ],
+  "permissions": [
+    "../upload/src/app/pages/dataset-detail-page/dataset-detail-page.component.html",
+    "../upload/src/app/components/permissions-modal/permissions-modal.component.html"
+  ],
+  "features": [
+    "../upload/src/app/pages/dataset-detail-page/dataset-detail-page.component.html"
+  ],
+  "there-was-a-problem": [
+    "../upload/src/app/pages/dataset-detail-page/dataset-detail-page.component.html"
+  ],
+  "dataset-detail-page-error-processing": [
+    "../upload/src/app/pages/dataset-detail-page/dataset-detail-page.component.html"
+  ],
+  "dataset-detail-error-contact": [
+    "../upload/src/app/pages/dataset-detail-page/dataset-detail-page.component.html"
+  ],
+  "try-again": [
+    "../upload/src/app/pages/dataset-detail-page/dataset-detail-page.component.html"
+  ],
+  "update": [
+    "../upload/src/app/pages/range-map-finalize/range-map-finalize.component.html"
+  ],
+  "occurrences": [],
+  "finalize-dataset-modal:title": [
+    "../upload/src/app/components/finalize-dataset-modal/finalize-dataset-modal.component.html"
+  ],
+  "finalize-dataset-modal:info": [
+    "../upload/src/app/components/finalize-dataset-modal/finalize-dataset-modal.component.html"
+  ],
+  "taxonomy-update:taxonomy-selected": [
+    "../upload/src/app/pages/taxonomy-update-page/taxonomy-update-page.component.html"
+  ],
+  "53d729477e0e7cabfcc7d9fcdb12592daf294fb5": [],
+  "taxonomy-update:select-taxonomy-option": [
+    "../upload/src/app/pages/taxonomy-update-page/taxonomy-update-page.component.html"
+  ],
+  "b6667376779a16e29a6f0cecad1c3710fb81916a": [],
+  "taxonomy-update:re-check": [
+    "../upload/src/app/pages/taxonomy-update-page/taxonomy-update-page.component.html"
+  ],
+  "taxonomy-update:unmatched": [
+    "../upload/src/app/pages/taxonomy-update-page/taxonomy-update-page.component.html"
+  ],
+  "something-went-wrong": [
+    "../upload/src/app/pages/taxonomy-update-page/taxonomy-update-page.component.html"
+  ],
+  "back-to-dataset-overview": [
+    "../upload/src/app/pages/taxonomy-update-page/taxonomy-update-page.component.html",
+    "../upload/src/app/pages/range-map-finalize/range-map-finalize.component.html"
+  ],
+  "view-your-datasets": [
+    "../upload/src/app/pages/taxonomy-update-page/taxonomy-update-page.component.html"
+  ],
+  "taxonomy-update:dataset-saved-success": [
+    "../upload/src/app/pages/taxonomy-update-page/taxonomy-update-page.component.html"
+  ],
+  "taxonomy-update:dataset-uploaded-success": [
+    "../upload/src/app/pages/taxonomy-update-page/taxonomy-update-page.component.html"
+  ],
+  "range-map-landing:title": [
+    "../upload/src/app/pages/range-map-landing-page/range-map-landing-page.component.html"
+  ],
+  "quick-info": [
+    "../upload/src/app/pages/range-map-landing-page/range-map-landing-page.component.html",
+    "../upload/src/app/components/quick-info/quick-info.component.html"
+  ],
+  "detailed-instructions": [
+    "../upload/src/app/pages/range-map-landing-page/range-map-landing-page.component.html"
+  ],
+  "continue": [
+    "../upload/src/app/components/range-map-info-modal/range-map-info-modal.component.html"
+  ],
+  "submit-range-map:feature-complete": [
+    "../upload/src/app/components/submit-range-map-modal/submit-range-map-modal.component.html"
+  ],
+  "dataset-overview": [
+    "../upload/src/app/components/submit-range-map-modal/submit-range-map-modal.component.html",
+    "../upload/src/app/components/display-dataset-overview/display-dataset-overview.component.html"
+  ],
+  "submit-range-map:add-range-map": [
+    "../upload/src/app/components/submit-range-map-modal/submit-range-map-modal.component.html"
+  ],
+  "new-range-map": [
+    "../upload/src/app/pages/range-map-draw-page/range-map-draw-page.component.html"
+  ],
+  "edit-range-map": [
+    "../upload/src/app/pages/range-map-draw-page/range-map-draw-page.component.html"
+  ],
+  "range-map-draw:start-here": [
+    "../upload/src/app/pages/range-map-draw-page/range-map-draw-page.component.html"
+  ],
+  "range-map-draw:enter-species-name": [
+    "../upload/src/app/pages/range-map-draw-page/range-map-draw-page.component.html"
+  ],
+  "range-map-draw:only-one-species-per-map": [
+    "../upload/src/app/pages/range-map-draw-page/range-map-draw-page.component.html"
+  ],
+  "range-map-draw:species-name-must-be-binomial-alert": [
+    "../upload/src/app/pages/range-map-draw-page/range-map-draw-page.component.html"
+  ],
+  "range-map-draw:mol-layers": [
+    "../upload/src/app/pages/range-map-draw-page/range-map-draw-page.component.html"
+  ],
+  "range-map-draw:reference-layers": [
+    "../upload/src/app/pages/range-map-draw-page/range-map-draw-page.component.html"
+  ],
+  "range-map-finalize-modal:description": [
+    "../upload/src/app/components/range-map-finalize-modal/range-map-finalize-modal.component.html"
+  ],
+  "finalizing": [
+    "../upload/src/app/components/range-map-finalize-modal/range-map-finalize-modal.component.html"
+  ],
+  "range-map-finalize-modal:error-finalizing": [
+    "../upload/src/app/components/range-map-finalize-modal/range-map-finalize-modal.component.html"
+  ],
+  "range-map:finalize-description": [
+    "../upload/src/app/pages/range-map-finalize/range-map-finalize.component.html"
+  ],
+  "update-metadata": [
+    "../upload/src/app/pages/range-map-finalize/range-map-finalize.component.html"
+  ],
+  "update-taxonomy": [
+    "../upload/src/app/pages/range-map-finalize/range-map-finalize.component.html"
+  ],
+  "welcome-!": [
+    "../upload/src/app/pages/landing-page/landing-page.component.html"
+  ],
+  "landing-page:welcome-text": [
+    "../upload/src/app/pages/landing-page/landing-page.component.html"
+  ],
+  "get-started": [
+    "../upload/src/app/pages/landing-page/landing-page.component.html"
+  ],
+  "instructions-manual": [
+    "../upload/src/app/pages/landing-page/landing-page.component.html"
+  ],
+  "no-match": [
+    "../upload/src/app/components/match-columns-dialog/match-columns-dialog.component.html"
+  ],
+  "optional": [
+    "../upload/src/app/components/range-map-metadata-edit/range-map-metadata-edit.component.html",
+    "../upload/src/app/components/points-metadata-edit/points-metadata-edit.component.html",
+    "../upload/src/app/components/match-columns-dialog/match-columns-dialog.component.html",
+    "../upload/src/app/components/inventory-metadata-edit/inventory-metadata-edit.component.html"
+  ],
+  "match-columns-no-recorded-by": [
+    "../upload/src/app/components/match-columns-dialog/match-columns-dialog.component.html"
+  ],
+  "match-columns-recorded-by-info": [
+    "../upload/src/app/components/match-columns-dialog/match-columns-dialog.component.html"
+  ],
+  "files-form:basic-info:form:spatial-data-format": [
+    "../upload/src/app/components/files-form/files-form.component.html"
+  ],
+  "shapefile": [
+    "../upload/src/app/components/files-form/files-form.component.html"
+  ],
+  "coordinates": [
+    "../upload/src/app/components/files-form/files-form.component.html"
+  ],
+  "files-form:basic-info:form:spatial-data-format-hint": [
+    "../upload/src/app/components/files-form/files-form.component.html"
+  ],
+  "files-form:upload-files:error-title": [
+    "../upload/src/app/components/files-form/files-form.component.html"
+  ],
+  "files-form:upload-files:error-text": [
+    "../upload/src/app/components/files-form/files-form.component.html"
+  ],
+  "files-form:see-instructions": [
+    "../upload/src/app/components/files-form/files-form.component.html"
+  ],
+  "files-form:match-columns-step:form:two-file-info": [
+    "../upload/src/app/components/files-form/files-form.component.html"
+  ],
+  "files-form:match-columns-step:form:could-not-process-data": [
+    "../upload/src/app/components/files-form/files-form.component.html"
+  ],
+  "files-form:match-columns-step:form:matching-terms": [
+    "../upload/src/app/components/files-form/files-form.component.html"
+  ],
+  "files-form:match-columns-step:form:fix-match-errors": [
+    "../upload/src/app/components/files-form/files-form.component.html"
+  ],
+  "files-form:match-columns-step:form:matching-errors-list": [
+    "../upload/src/app/components/files-form/files-form.component.html"
+  ],
+  "files-form:match-columns-step:instructions:occurrence": [
+    "../upload/src/app/components/files-form/files-form.component.html"
+  ],
+  "files-form:review-geometry:form:file-size-too-large-error": [
+    "../upload/src/app/components/files-form/files-form.component.html"
+  ],
+  "files-form:review-geometry:form:no-features-error": [
+    "../upload/src/app/components/files-form/files-form.component.html"
+  ],
+  "metadata-sections:endemic-info": [
+    "../upload/src/app/components/metadata-sections/additional-info-section/additional-info-section.component.html"
+  ],
+  "metadata-sections:endemic-tooltip": [
+    "../upload/src/app/components/metadata-sections/additional-info-section/additional-info-section.component.html"
+  ],
+  "metadata-sections:completeness:reason-for-no-completeness": [
+    "../upload/src/app/components/metadata-sections/completeness-section/completeness-section.component.html"
+  ],
+  "metadata-sections:license:license-holder": [
+    "../upload/src/app/components/metadata-sections/license-section/license-section.component.html"
+  ],
+  "metadata-sections:license:license-holder-hint": [
+    "../upload/src/app/components/metadata-sections/license-section/license-section.component.html"
+  ],
+  "metadata-sections:methods:inventories-compilations-both:inventories-option": [
+    "../upload/src/app/components/metadata-sections/methods-section/methods-section.component.html"
+  ],
+  "metadata-sections:methods:inventories-compilations-both:compilation-option": [
+    "../upload/src/app/components/metadata-sections/methods-section/methods-section.component.html"
+  ],
+  "metadata-sections:methods:inventories-compilations-both:both-option": [
+    "../upload/src/app/components/metadata-sections/methods-section/methods-section.component.html"
+  ],
+  "metadata-sections:methods:type-of-inventory": [
+    "../upload/src/app/components/metadata-sections/methods-section/methods-section.component.html"
+  ],
+  "metadata-sections:methods:type-of-inventory:restricted": [
+    "../upload/src/app/components/metadata-sections/methods-section/methods-section.component.html"
+  ],
+  "metadata-sections:methods:type-of-inventory:open-search": [
+    "../upload/src/app/components/metadata-sections/methods-section/methods-section.component.html"
+  ],
+  "metadata-sections:methods:type-of-inventory:opportunistic-search": [
+    "../upload/src/app/components/metadata-sections/methods-section/methods-section.component.html"
+  ],
+  "metadata-sections:methods:type-of-inventory:trap": [
+    "../upload/src/app/components/metadata-sections/methods-section/methods-section.component.html"
+  ],
+  "metadata-sections:methods:type-of-inventory:adventitious": [
+    "../upload/src/app/components/metadata-sections/methods-section/methods-section.component.html"
+  ],
+  "metadata-sections:methods:type-of-inventory:incidental": [
+    "../upload/src/app/components/metadata-sections/methods-section/methods-section.component.html"
+  ],
+  "metadata-sections:methods:type-of-inventory:hint": [
+    "../upload/src/app/components/metadata-sections/methods-section/methods-section.component.html"
+  ],
+  "metadata-sections:methods:type-of-compilation": [
+    "../upload/src/app/components/metadata-sections/methods-section/methods-section.component.html"
+  ],
+  "metadata-sections:methods:type-of-compilation:expert-knowledge": [
+    "../upload/src/app/components/metadata-sections/methods-section/methods-section.component.html"
+  ],
+  "metadata-sections:methods:type-of-compilation:primary-literature": [
+    "../upload/src/app/components/metadata-sections/methods-section/methods-section.component.html"
+  ],
+  "metadata-sections:methods:type-of-compilation:museum-specimens": [
+    "../upload/src/app/components/metadata-sections/methods-section/methods-section.component.html"
+  ],
+  "metadata-sections:methods:type-of-compilation:other": [
+    "../upload/src/app/components/metadata-sections/methods-section/methods-section.component.html"
+  ],
+  "metadata-sections:methods:type-of-compilation:placeholder": [
+    "../upload/src/app/components/metadata-sections/methods-section/methods-section.component.html"
+  ],
+  "metadata-sections:methods:type-of-compilation:hint": [
+    "../upload/src/app/components/metadata-sections/methods-section/methods-section.component.html"
+  ],
+  "metadata-sections:methods:compilation-effort": [
+    "../upload/src/app/components/metadata-sections/methods-section/methods-section.component.html"
+  ],
+  "low": [
+    "../upload/src/app/components/metadata-sections/methods-section/methods-section.component.html"
+  ],
+  "medium": [
+    "../upload/src/app/components/metadata-sections/methods-section/methods-section.component.html"
+  ],
+  "high": [
+    "../upload/src/app/components/metadata-sections/methods-section/methods-section.component.html"
+  ],
+  "metadata-sections:methods:compilation-effort:placeholder": [
+    "../upload/src/app/components/metadata-sections/methods-section/methods-section.component.html"
+  ],
+  "b60f58879a4f183015be1d1a2811e9c1023aae0c": [],
+  "0bef1212fd895b43b0bf3c0231fbac7c14beda6e": [],
+  "metdata-sections:permissions:dataset-private-alert": [
+    "../upload/src/app/components/metadata-sections/permissions-section/permissions-section.component.html"
+  ],
+  "metadata-sections:survey-protocol": [
+    "../upload/src/app/components/metadata-sections/survey-protocol-section/survey-protocol-section.component.html"
+  ],
+  "metadata-sections:survey-protocol:survey-methods:title": [
+    "../upload/src/app/components/metadata-sections/survey-protocol-section/survey-protocol-section.component.html"
+  ],
+  "metadata-sections:survey-protocol:survey-methods:tooltip": [
+    "../upload/src/app/components/metadata-sections/survey-protocol-section/survey-protocol-section.component.html"
+  ],
+  "metadata-sections:temporal-coverage:study-diurnality:diurnal": [
+    "../upload/src/app/components/metadata-sections/temporal-coverage-section/temporal-coverage-section.component.html"
+  ],
+  "metadata-sections:temporal-coverage:study-diurnality:nocturnal": [
+    "../upload/src/app/components/metadata-sections/temporal-coverage-section/temporal-coverage-section.component.html"
+  ],
+  "metadata-sections:temporal-coverage:study-diurnality:both": [
+    "../upload/src/app/components/metadata-sections/temporal-coverage-section/temporal-coverage-section.component.html"
+  ],
+  "permissions-modal-title": [
+    "../upload/src/app/components/permissions-modal/permissions-modal.component.html"
+  ],
+  "locations": [
+    "../upload/src/app/components/display-dataset-overview/display-dataset-overview.component.html"
+  ],
+  "dataset-overview:unique-site-counts": [
+    "../upload/src/app/components/display-dataset-overview/display-dataset-overview.component.html"
+  ],
+  "location": [
+    "../upload/src/app/components/display-dataset-overview/display-dataset-overview.component.html"
+  ],
+  "dataset-metdata-tab:uploaded-by": [
+    "../upload/src/app/components/display-dataset-metadata/display-dataset-metadata.component.html"
+  ],
+  "edit-metadata": [
+    "../upload/src/app/components/display-dataset-metadata/display-dataset-metadata.component.html"
+  ],
+  "all": [
+    "../upload/src/app/components/display-dataset-map/display-dataset-map.component.html"
+  ],
+  "region": [
+    "../upload/src/app/components/display-dataset-map/display-dataset-map.component.html"
+  ],
+  "feature": [
+    "../upload/src/app/pages/dataset-detail-page/dataset-detail-page.component.html",
+    "../upload/src/app/components/feature-attributes-dialog/feature-attributes-dialog.component.html",
+    "../upload/src/app/components/display-dataset-map/display-dataset-map.component.html"
+  ],
+  "number-of-species": [
+    "../upload/src/app/components/display-dataset-map/display-dataset-map.component.html"
+  ],
+  "dataset-map:color-by": [
+    "../upload/src/app/components/display-dataset-map/display-dataset-map.component.html"
+  ],
+  "less": [
+    "../upload/src/app/components/display-dataset-map/display-dataset-map.component.html"
+  ],
+  "more": [
+    "../upload/src/app/components/display-dataset-map/display-dataset-map.component.html"
+  ],
+  "metadata-instructions-dialog-instructions": [
+    "../upload/src/app/components/metadata-instructions-dialog/metadata-instructions-dialog.component.html"
+  ],
+  "close": [
+    "../upload/src/app/components/metadata-instructions-dialog/metadata-instructions-dialog.component.html",
+    "../upload/src/app/components/feature-attributes-dialog/feature-attributes-dialog.component.html"
+  ],
+  "metadata-sections:range-map-landing:title": [
+    "../upload/src/app/components/range-map-landing-form/range-map-landing-form.component.html"
+  ],
+  "metadata-sections:range-map-landing:title:tooltip": [
+    "../upload/src/app/components/range-map-landing-form/range-map-landing-form.component.html"
+  ],
+  "metadata-sections:range-map-landing:select-taxonomic-group": [
+    "../upload/src/app/components/range-map-landing-form/range-map-landing-form.component.html"
+  ],
+  "metadata-sections:range-map-landing:select-taxonomic-group:tooltip": [
+    "../upload/src/app/components/range-map-landing-form/range-map-landing-form.component.html"
+  ],
+  "start-drawing": [
+    "../upload/src/app/components/range-map-landing-form/range-map-landing-form.component.html"
+  ],
+  "metadata-sections:feature-attributes-dialog:description": [
+    "../upload/src/app/components/feature-attributes-dialog/feature-attributes-dialog.component.html"
+  ],
+  "metadata-sections:feature-attributes-dialog:presence": [
+    "../upload/src/app/components/feature-attributes-dialog/feature-attributes-dialog.component.html"
+  ],
+  "metadata-sections:feature-attributes-dialog:presence:tooltip": [
+    "../upload/src/app/components/feature-attributes-dialog/feature-attributes-dialog.component.html"
+  ],
+  "metadata-sections:feature-attributes-dialog:presence:option-extant": [
+    "../upload/src/app/components/feature-attributes-dialog/feature-attributes-dialog.component.html"
+  ],
+  "metadata-sections:feature-attributes-dialog:presence:option-possibly-extant": [
+    "../upload/src/app/components/feature-attributes-dialog/feature-attributes-dialog.component.html"
+  ],
+  "metadata-sections:feature-attributes-dialog:presence:option-possibly-extinct": [
+    "../upload/src/app/components/feature-attributes-dialog/feature-attributes-dialog.component.html"
+  ],
+  "metadata-sections:feature-attributes-dialog:origin": [
+    "../upload/src/app/components/feature-attributes-dialog/feature-attributes-dialog.component.html"
+  ],
+  "metadata-sections:feature-attributes-dialog:origin:tooltip": [
+    "../upload/src/app/components/feature-attributes-dialog/feature-attributes-dialog.component.html"
+  ],
+  "metadata-sections:feature-attributes-dialog:origin:native": [
+    "../upload/src/app/components/feature-attributes-dialog/feature-attributes-dialog.component.html"
+  ],
+  "metadata-sections:feature-attributes-dialog:origin:non-native": [
+    "../upload/src/app/components/feature-attributes-dialog/feature-attributes-dialog.component.html"
+  ],
+  "metadata-sections:feature-attributes-dialog:seasonality": [
+    "../upload/src/app/components/feature-attributes-dialog/feature-attributes-dialog.component.html"
+  ],
+  "metadata-sections:feature-attributes-dialog:seasonality:tooltip": [
+    "../upload/src/app/components/feature-attributes-dialog/feature-attributes-dialog.component.html"
+  ],
+  "metadata-sections:feature-attributes-dialog:seasonality:resident": [
+    "../upload/src/app/components/feature-attributes-dialog/feature-attributes-dialog.component.html"
+  ],
+  "metadata-sections:feature-attributes-dialog:seasonality:breeding": [
+    "../upload/src/app/components/feature-attributes-dialog/feature-attributes-dialog.component.html"
+  ],
+  "metadata-sections:feature-attributes-dialog:seasonality:non-breeding": [
+    "../upload/src/app/components/feature-attributes-dialog/feature-attributes-dialog.component.html"
+  ],
+  "metadata-sections:feature-attributes-dialog:seasonality:passage": [
+    "../upload/src/app/components/feature-attributes-dialog/feature-attributes-dialog.component.html"
+  ],
+  "metadata-sections:feature-attributes-dialog:temporal-scope": [
+    "../upload/src/app/components/feature-attributes-dialog/feature-attributes-dialog.component.html"
+  ],
+  "feature-attributes-dialog:temporal-scope:tooltip": [
+    "../upload/src/app/components/feature-attributes-dialog/feature-attributes-dialog.component.html"
+  ],
+  "year-yyyy": [
+    "../upload/src/app/components/feature-attributes-dialog/feature-attributes-dialog.component.html"
+  ],
+  "to": [
+    "../upload/src/app/components/feature-attributes-dialog/feature-attributes-dialog.component.html"
+  ],
+  "required": [
+    "../upload/src/app/components/range-map-metadata-edit/range-map-metadata-edit.component.html",
+    "../upload/src/app/components/points-metadata-edit/points-metadata-edit.component.html",
+    "../upload/src/app/components/inventory-metadata-edit/inventory-metadata-edit.component.html",
+    "../upload/src/app/components/feature-attributes-dialog/feature-attributes-dialog.component.html"
+  ],
+  "metadata-sections:feature-attributes-dialog:subspecies": [
+    "../upload/src/app/components/feature-attributes-dialog/feature-attributes-dialog.component.html"
+  ],
+  "metadata-sections:feature-attributes-dialog:subspecies:tooltip": [
+    "../upload/src/app/components/feature-attributes-dialog/feature-attributes-dialog.component.html"
+  ],
+  "metadata-sections:feature-attributes-dialog:population": [
+    "../upload/src/app/components/feature-attributes-dialog/feature-attributes-dialog.component.html"
+  ],
+  "metadata-sections:feature-attributes-dialog:population:tooltip": [
+    "../upload/src/app/components/feature-attributes-dialog/feature-attributes-dialog.component.html"
+  ],
+  "metadata-sections:feature-attributes-dialog:source": [
+    "../upload/src/app/components/feature-attributes-dialog/feature-attributes-dialog.component.html"
+  ],
+  "metadata-sections:feature-attributes-dialog:geographic-coverage": [
+    "../upload/src/app/components/feature-attributes-dialog/feature-attributes-dialog.component.html"
+  ],
+  "metadata-sections:feature-attributes-dialog:geographic-coverage:tooltip": [
+    "../upload/src/app/components/feature-attributes-dialog/feature-attributes-dialog.component.html"
+  ],
+  "metadata-sections:feature-attributes-dialog:taxonomic-citation": [
+    "../upload/src/app/components/feature-attributes-dialog/feature-attributes-dialog.component.html"
+  ],
+  "metadata-sections:feature-attributes-dialog:taxonomic-citation:tooltip": [
+    "../upload/src/app/components/feature-attributes-dialog/feature-attributes-dialog.component.html"
+  ],
+  "metadata-sections:feature-attributes-dialog:marine-terrestrial": [
+    "../upload/src/app/components/feature-attributes-dialog/feature-attributes-dialog.component.html"
+  ],
+  "metadata-sections:feature-attributes-dialog:marine-terrestrial:tooltip": [
+    "../upload/src/app/components/feature-attributes-dialog/feature-attributes-dialog.component.html"
+  ],
+  "metadata-sections:feature-attributes-dialog:marine-terrestrial:marine-option": [
+    "../upload/src/app/components/feature-attributes-dialog/feature-attributes-dialog.component.html"
+  ],
+  "metadata-sections:feature-attributes-dialog:marine-terrestrial:terrestrial-option": [
+    "../upload/src/app/components/feature-attributes-dialog/feature-attributes-dialog.component.html"
+  ],
+  "notes": [
+    "../upload/src/app/components/feature-attributes-dialog/feature-attributes-dialog.component.html"
+  ],
+  "value": [
+    "../upload/src/app/components/metadata-sections/custom-section/custom-section.component.html",
+    "../upload/src/app/components/feature-attributes-dialog/feature-attributes-dialog.component.html"
+  ],
+  "add-field": [
+    "../upload/src/app/components/metadata-sections/custom-section/custom-section.component.html",
+    "../upload/src/app/components/feature-attributes-dialog/feature-attributes-dialog.component.html"
+  ],
+  "feature-attributes-dialog:custom": [
+    "../upload/src/app/components/feature-attributes-dialog/feature-attributes-dialog.component.html"
+  ],
+  "submit-range-map": [
+    "../upload/src/app/components/submit-range-map-modal/submit-range-map-modal.component.html",
+    "../upload/src/app/components/feature-attributes-dialog/feature-attributes-dialog.component.html"
+  ],
+  "draw": [
+    "../upload/src/app/components/range-map/range-map.component.html"
+  ],
+  "edit": [
+    "../upload/src/app/pages/range-map-draw-page/range-map-draw-page.component.html",
+    "../upload/src/app/components/range-map/range-map.component.html",
+    "../upload/src/app/components/display-dataset-metadata/display-dataset-metadata.component.html",
+    "../upload/src/app/components/display-dataset-features/display-dataset-features.component.html"
+  ],
+  "review": [
+    "../upload/src/app/components/range-map/range-map.component.html",
+    "../upload/src/app/components/files-form/files-form.component.html"
+  ],
+  "scientific-name": [
+    "../upload/src/app/components/display-dataset-features/display-dataset-features.component.html"
+  ],
+  "common-name": [
+    "../upload/src/app/components/display-dataset-features/display-dataset-features.component.html"
+  ],
+  "date": [
+    "../upload/src/app/components/display-dataset-features/display-dataset-features.component.html"
+  ],
+  "display-dataset-acl:saving-dataset-info": [
+    "../upload/src/app/components/display-dataset-acl/display-dataset-acl.component.html"
+  ],
+  "display-dataset-acl:saving-dataset-error": [
+    "../upload/src/app/components/display-dataset-acl/display-dataset-acl.component.html"
+  ],
+  "display-dataset-acl:permissions-saved-success": [
+    "../upload/src/app/components/display-dataset-acl/display-dataset-acl.component.html"
+  ],
+  "field": [
+    "../upload/src/app/components/metadata-sections/custom-section/custom-section.component.html"
+  ],
+  "access-required": [
+    "../upload/src/app/components/whitelist-request-link/whitelist-request-link.component.html"
+  ],
+  "whitelist-request:info-alert": [
+    "../upload/src/app/components/whitelist-request-link/whitelist-request-link.component.html"
+  ],
+  "request-access": [
+    "../upload/src/app/components/whitelist-request-link/whitelist-request-link.component.html"
+  ],
+  "geograhic-coverage": [
+    "../upload/src/app/components/metadata-sections/geographic-coverage-range-map-section/geographic-coverage-range-map-section.component.html"
+  ],
+  "metadata-sections:geographic-coverage:geometry-processing": [
+    "../upload/src/app/components/metadata-sections/geographic-coverage-range-map-section/geographic-coverage-range-map-section.component.html"
+  ],
+  "metadata-sections:geographic-coverage:geometry-processing:tooltip": [
+    "../upload/src/app/components/metadata-sections/geographic-coverage-range-map-section/geographic-coverage-range-map-section.component.html"
+  ],
+  "countries": [
+    "../upload/src/app/components/metadata-sections/geographic-coverage-range-map-section/geographic-coverage-range-map-section.component.html"
+  ],
+  "metadata-sections:geographic-coverage:countries:tooltip": [
+    "../upload/src/app/components/metadata-sections/geographic-coverage-range-map-section/geographic-coverage-range-map-section.component.html"
+  ],
+  "geographic-scope": [
+    "../upload/src/app/components/metadata-sections/geographic-coverage-range-map-section/geographic-coverage-range-map-section.component.html"
+  ],
+  "metadata-sections:geographic-coverage:geographic-scope:tooltip": [
+    "../upload/src/app/components/metadata-sections/geographic-coverage-range-map-section/geographic-coverage-range-map-section.component.html"
+  ]
+}

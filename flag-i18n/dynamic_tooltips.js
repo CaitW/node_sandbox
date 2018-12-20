@@ -6,7 +6,7 @@
     function onlyUnique(value, index, self) {
         return self.indexOf(value) === index;
     }
-    $("[data-i18n]:visible").each((index, element) => {
+    $("[data-i18n]").each((index, element) => {
         let offset = $(element).offset();
         let width = $(element).width();
         let height = $(element).height();
