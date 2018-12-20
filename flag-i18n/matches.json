@@ -1,0 +1,1345 @@
+{
+  "../upload/src/app/pages/taxonomy-update-page/taxonomy-update-page.component.html": {
+    "matches": [
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n"
+    ],
+    "count": 33,
+    "line": [
+      "      <span i18n=\"@@back-to-dataset-overvew\">Back to Dataset Overview</span>",
+      "      <span i18n=\"@@instructions\">Instructions</span>",
+      "      <span i18n=\"@@submit\">Submit</span>",
+      "      <span i18n=\"@@save\">Save</span>",
+      "    <div class=\"alert alert-info\" i18n=\"@@taxonomy-update:wait-exact-matches\">",
+      "      <h2><span i18n=\"@@progress\">Progress</span>: {{speciesLoaded}}/{{speciesToLoad.length}} <span i18n=\"@@taxonomy-update-num-names-checked\">names checked</span></h2>",
+      "        [@toggleNgIf] i18n=\"@@taxonomy-update:after-exact-matches-found\">",
+      "        [@toggleNgIf] i18n=\"@@taxonomy-update:taxonomy-selected\">",
+      "        <span i18n=\"@@taxonomy-update:taxonomies-for-group\">Taxonomies for</span>",
+      "        <span i18n=\"@@taxonomy-update:num-taxonomies-text\">{taxonConcepts.length, plural, =0 {Names} =1 {Name} other {Names}} in dataset</span>",
+      "        <span i18n=\"@@taxonomy-update:select-taxonomy-option\">exact {authorityCounts[auth.taxonomy_id], plural, =0 {matches} =1 {match} other {matches}}</span>]",
+      "        [@toggleNgIf] i18n=\"@@taxonomy-update:select-taxonomy-hint\">",
+      "        class=\"mol-button stroked primary\" i18n=\"@@taxonomy-update:accept-taxonomy-button\">",
+      "    <div class=\"alert alert-info\"  i18n=\"@@taxonomy-update:wait-approx-matches\">",
+      "      <h2 i18n=\"@@taxonomy-update:approx-names-progress\">Progress: {{speciesLoaded}}/{{speciesToLoad.length}} names checked</h2>",
+      "      <h2 i18n-title=\"@@taxonomy-update:find-best-match\" title=\"Find the best match for the scientific name in this taxonomy.\">",
+      "          <span i18n=\"@@taxonomy-update:names-to-verify\">Names to Verify</span> ({{unverifiedCount}})",
+      "          i18n-title=\"@@taxonomy-update-page:select-all\"",
+      "        <span i18n=\"@@select-all\">Select all</span>",
+      "                class=\"mol-button stroked white re-check\" i18n=\"@@taxonomy-update:re-check\">",
+      "        <span i18n=\"@@verified-names\">Verified Names</span> ({{verifiedCount}})",
+      "          title=\"Select all isVerified names/\" i18n=\"@@select-all\">",
+      "            <span *ngIf=\"!tc.tcid\" class=\"missing-tcid\" title=\"This name does not have a match in the taxonomy.\" i18n=\"@@taxonomy-update:unmatched\">",
+      "    <h1 i18n=\"@@something-went-wrong\">Something went wrong.</h1>",
+      "    <a routerLink=\"/dataset/{{ dataset_id }}\" routerLinkActive=\"active\" mat-button class=\"mol-button primary basic\" i18n=\"@@back-to-dataset-overview\">Back to Dataset Overview</a>",
+      "    <a routerLink=\"/datasets\" routerLinkActive=\"active\" mat-button class=\"mol-button primary basic\" i18n=\"@@view-your-datasets\">View Your Datasets</a>",
+      "    <h1 i18n=\"@@taxonomy-update:dataset-saved-success\"> Your dataset has been successfully saved! </h1>",
+      "    <a routerLink=\"/dataset/{{ dataset_id }}\" routerLinkActive=\"active\" mat-button class=\"mol-button primary basic\" i18n=\"@@back-to-dataset-overview\">Back to Dataset Overview</a>",
+      "    <a routerLink=\"/datasets\" routerLinkActive=\"active\" mat-button class=\"mol-button primary basic\" i18n=\"@@view-your-datasets\">View Your Datasets</a>",
+      "    <h1 i18n=\"@@taxonomy-update:dataset-uploaded-success\"> Your dataset has been successfully uploaded! </h1>",
+      "    <a routerLink=\"/dataset/{{ dataset_id }}\" routerLinkActive=\"active\" mat-button class=\"mol-button primary basic\" i18n=\"@@back-to-dataset-overview\">Back to Dataset Overview</a>",
+      "    <a routerLink=\"/datasets\" routerLinkActive=\"active\" mat-button class=\"mol-button primary basic\" i18n=\"@@view-your-datasets\">View Your Datasets</a>"
+    ]
+  },
+  "../upload/src/app/pages/range-map-metadata-page/range-map-metadata-page.component.html": {
+    "matches": [
+      "i18n",
+      "i18n"
+    ],
+    "count": 2,
+    "line": [
+      "            (click)=\"datasets()\" i18n=\"@@cancel\">",
+      "            (click)=\"save()\" i18n=\"@@save\">"
+    ]
+  },
+  "../upload/src/app/pages/range-map-landing-page/range-map-landing-page.component.html": {
+    "matches": [
+      "i18n",
+      "i18n",
+      "i18n"
+    ],
+    "count": 3,
+    "line": [
+      "    <h1 i18n=\"@@range-map-landing:title\"> Create New Range Map Dataset </h1>",
+      "                <strong i18n=\"@@quick-info\"> Quick Info </strong>",
+      "                <strong i18n=\"@@detailed-instructions\"> Detailed Instructions </strong>"
+    ]
+  },
+  "../upload/src/app/pages/range-map-finalize/range-map-finalize.component.html": {
+    "matches": [
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n"
+    ],
+    "count": 6,
+    "line": [
+      "                <span i18n=\"@@back-to-dataset-overview\">Back to Dataset Overview</span>",
+      "        <div class=\"finalize-title\" i18n=\"@@finalize\">",
+      "            <p i18n=\"@@range-map:finalize-description\">",
+      "                <span i18n=\"@@update-metadata\">Update Metadata</span>",
+      "                <span i18n=\"@@update-taxonomy\">Update Taxonomy</span>",
+      "            <span i18n=\"@@finalize\">Finalize</span>"
+    ]
+  },
+  "../upload/src/app/pages/range-map-draw-page/range-map-draw-page.component.html": {
+    "matches": [
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n"
+    ],
+    "count": 9,
+    "line": [
+      "    <div class=\"page-title\" *ngIf=\"rangeMapService.feature.mode === 'new'\" i18n=\"@@new-range-map\">",
+      "        <div class=\"page-title\" *ngIf=\"rangeMapService.feature.mode === 'edit'\" i18n=\"@@edit-range-map\">",
+      "              <label i18n=\"@@species\">Species</label>",
+      "          <h3 class=\"align-center\" i18n=\"@@range-map-draw:start-here\"> Start Here! </h3>",
+      "           <p i18n=\"@@range-map-draw:enter-species-name\"> Enter a species name, or start typing and select from the autocomplete options. </p>",
+      "           <p i18n=\"@@range-map-draw:only-one-species-per-map\">You can only select one species per <strong>range map</strong>, but you can add as many range maps to your dataset as you'd like.</p>",
+      "        <div class=\"alert alert-warning\" *ngIf=\"form.controls.speciesName.errors && !form.controls.speciesName.pristine\" i18n=\"@@range-map-draw:species-name-must-be-binomial-alert\">",
+      "    <div class=\"sidebar-section-title\" i18n=\"@@range-map-draw:mol-layers\"> MOL Layers </div>",
+      "    <div class=\"sidebar-section-title\" i18n=\"@@range-map-draw:reference-layers\"> Reference Layers </div>"
+    ]
+  },
+  "../upload/src/app/pages/landing-page/landing-page.component.html": {
+    "matches": [
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n"
+    ],
+    "count": 4,
+    "line": [
+      "      <h1 i18n=\"@@welcome-!\"> Welcome! </h1>",
+      "      <span i18n=\"@@landing-page:welcome-text\">",
+      "        <button mat-button class=\"mol-button basic primary\" (click)=\"getStarted()\" i18n=\"@@get-started\">Get Started</button>",
+      "        <a href=\"https://mapoflife.github.io/upload-dev/assets/docs/manual.pdf\" mat-button class=\"mol-button basic primary\" i18n=\"@@instructions-manual\">Instructions Manual</a>"
+    ]
+  },
+  "../upload/src/app/pages/files-page/files-page.component.html": {
+    "matches": [
+      "i18n"
+    ],
+    "count": 1,
+    "line": [
+      "    <h2 i18n=\"@@uploader\"> Uploader </h2>"
+    ]
+  },
+  "../upload/src/app/pages/dataset-list-page/dataset-list-page.component.html": {
+    "matches": [
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n"
+    ],
+    "count": 11,
+    "line": [
+      "       <p class=\"title\" i18n=\"@@no-datasets-prompt\">You don't have any datasets yet.</p>",
+      "          <mat-icon>backup</mat-icon> <span i18n=\"@@upload-data\"> Upload Data </span>",
+      "      <h1 i18n=\"@@available-datasets\">Available datasets</h1>",
+      "          <mat-select i18n-placeholder=\"@@filter-by-dataset-type\" placeholder=\"Filter by dataset type\" [(value)]=\"selectedDataset\">",
+      "            <mat-option *ngFor=\"let datasetType of userDatasetTypes\" value=\"{{datasetType.type}}\" i18n=\"@@dataset-list-page:dataset-type-options\"> {{datasetType.display}} </mat-option>",
+      "          <span i18n=\"@@public-or-private\">",
+      "          <span *ngIf=\"ds.view_status==='completed'\" i18n=\"@@view-status:completed\"> completed </span>",
+      "          <span *ngIf=\"ds.view_status==='harmonize'\" i18n=\"@@view-status:harmonize\"> harmonize </span>",
+      "          <span *ngIf=\"ds.view_status==='ready'\" i18n=\"@@view-status:ready\"> ready </span>",
+      "          <span *ngIf=\"ds.view_status==='queued'\" i18n=\"@@view-status:queued\"> queued </span>",
+      "          <span *ngIf=\"ds.view_status==='error'\" i18n=\"@@view-status:error\"> error </span>"
+    ]
+  },
+  "../upload/src/app/pages/dataset-detail-page/dataset-detail-page.component.html": {
+    "matches": [
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n"
+    ],
+    "count": 21,
+    "line": [
+      "        <span i18n=\"@@add-range-map\">Add Range Map</span>",
+      "        <span i18n=\"@@finalize\">Finalize</span>",
+      "          <mat-icon>merge_type</mat-icon> <span i18n=\"@@harmonize\"> Harmonize </span>",
+      "        <span i18n=\"@@delete\">Delete</span>",
+      "    <div *ngIf=\"!hasFeatures\" class=\"no-features alert alert-warning\" role=\"alert\" i18n=\"@@dataset-detail-no-features\">",
+      "    <div *ngIf=\"finalized\" class=\"finalized alert alert-warning\" role=\"alert\" i18n=\"@@dataset-detail-dataset-finalized-alert\">",
+      "    <div *ngIf=\"!finalized\" class=\"finalized alert alert-info\" role=\"alert\" i18n=\"@@dataset-detail-dataset-not-finalized-alert\">",
+      "      <span i18n=\"@@dataset-detail-private-permissions-alert\">This dataset is <strong>private</strong>. Click the <strong class=\"text-button\" (click)=\"openPermissionsTab()\">Permissions</strong> tab below to change dataset permissions.</span>",
+      "      <mat-tab i18n-label=\"@@overview\" label=\"Overview\" *ngIf=\"hasFeatures\">",
+      "      <mat-tab i18n-label=\"@@map\" label=\"Map\" *ngIf=\"hasFeatures\">",
+      "      <mat-tab i18n-label=\"@@metadata\" label=\"Metadata\">",
+      "      <mat-tab i18n-label=\"@@permissions\" label=\"Permissions\">",
+      "    <mat-tab i18n-label=\"@@features\" label=\"Features\" *ngIf=\"dataset_type=='range' && hasFeatures\">",
+      "    <h1 i18n=\"@@there-was-a-problem\">There was a problem.</h1>",
+      "    <p i18n=\"@@dataset-detail-page-error-processing\"> Sorry! We encountered a problem while processing your dataset. </p>",
+      "    <p i18n=\"@@dataset-detail-error-contact\"> Please contact <a href=\"mailto:info@mol.org\">info@mol.org</a> for assistance. </p>",
+      "      <a mat-button class=\"mol-button basic primary\" routerLink=\"/files\" i18n=\"@@try-again\">Try again</a>",
+      "        <span i18n=\"@@delete\">Delete</span>",
+      "    <h1 i18n=\"@@dataset-detail-error\">{{ error }}</h1>",
+      "    <p i18n=\"@@dataset-detail-error-contact\"> Please contact <a href=\"mailto:info@mol.org\">info@mol.org</a> for assistance. </p>",
+      "    <a mat-button class=\"mol-button basic primary\" routerLink=\"/datasets\" i18n=\"@@back-to-datasets\">Back to Datasets</a>"
+    ]
+  },
+  "../upload/src/app/components/whitelist-request-link/whitelist-request-link.component.html": {
+    "matches": [
+      "i18n",
+      "i18n",
+      "i18n"
+    ],
+    "count": 3,
+    "line": [
+      "    <p class=\"title\" i18n=\"@@access-required\">Access Required</p>",
+      "    <p class=\"description\" i18n=\"@@whitelist-request:info-alert\">The Map of Life Uploader is currently in a limited access release. You'll need to request access before you can upload datasets. </p>",
+      "      <span i18n=\"@@request-access\">Request Access</span>"
+    ]
+  },
+  "../upload/src/app/components/submit-range-map-modal/submit-range-map-modal.component.html": {
+    "matches": [
+      "i18n",
+      "i18n",
+      "i18n"
+    ],
+    "count": 3,
+    "line": [
+      "<h3 i18n=\"@@submit-range-map:feature-complete\">Feature Complete</h3>",
+      "        <span i18n=\"@@dataset-overview\">Dataset Overview</span>",
+      "        <span i18n=\"@@submit-range-map:add-range-map\">Add Another Range Map</span>"
+    ]
+  },
+  "../upload/src/app/components/range-map-metadata-edit/range-map-metadata-edit.component.html": {
+    "matches": [
+      "i18n",
+      "i18n"
+    ],
+    "count": 2,
+    "line": [
+      "    <mat-panel-title i18n=\"@@required-info\">",
+      "    <mat-panel-title i18n=\"@@optional-info\">"
+    ]
+  },
+  "../upload/src/app/components/range-map-landing-form/range-map-landing-form.component.html": {
+    "matches": [
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n"
+    ],
+    "count": 5,
+    "line": [
+      "                <span i18n=\"@@metadata-sections:range-map-landing:title\">Title</span>",
+      "                <mol-help-info i18n-tooltip=\"@@metadata-sections:range-map-landing:title:tooltip\" tooltip=\"The title of the dataset\"></mol-help-info>",
+      "                <span i18n=\"@@metadata-sections:range-map-landing:select-taxonomic-group\">Select taxonomic group</span>",
+      "                <mol-help-info i18n-tooltip=\"@@metadata-sections:range-map-landing:select-taxonomic-group:tooltip\" tooltip=\"The taxonomic group of the dataset\"></mol-help-info>",
+      "            type=\"button\" i18n=\"@@start-drawing\">"
+    ]
+  },
+  "../upload/src/app/components/range-map-info-modal/range-map-info-modal.component.html": {
+    "matches": [
+      "i18n"
+    ],
+    "count": 1,
+    "line": [
+      "        <span i18n=\"@@continue\">Continue</span>"
+    ]
+  },
+  "../upload/src/app/components/range-map-finalize-modal/range-map-finalize-modal.component.html": {
+    "matches": [
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n"
+    ],
+    "count": 7,
+    "line": [
+      "            <h2 i18n=\"@@finalize\"> Finalize </h2>",
+      "        <div class=\"finalize-modal-body\" i18n=\"@@range-map-finalize-modal:description\">",
+      "            <button mat-button (click)=\"cancel()\" i18n=\"@@cancel\"> Cancel </button>",
+      "            <button mat-raised-button color=\"primary\" (click)=\"finalize()\" i18n=\"@@finalize\"> Finalize </button>",
+      "    <div *ngIf=\"state === 'finalizing'\" i18n=\"@@finalizing\">",
+      "            <h3 i18n=\"@@range-map-finalize-modal:error-finalizing\"> Error Finalizing Dataset </h3>",
+      "            <button mat-button color=\"primary\" (click)=\"cancel()\" i18n=\"@@cancel\"> Cancel </button>"
+    ]
+  },
+  "../upload/src/app/components/range-map/range-map.component.html": {
+    "matches": [
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n"
+    ],
+    "count": 4,
+    "line": [
+      "                <span i18n=\"@@draw\">Draw</span>",
+      "                <span i18n=\"@@edit\">Edit</span>",
+      "                <span i18n=\"@@delete\">Delete</span>",
+      "                <span i18n=\"@@review\">Review</span>"
+    ]
+  },
+  "../upload/src/app/components/quick-info/quick-info.component.html": {
+    "matches": [
+      "i18n"
+    ],
+    "count": 1,
+    "line": [
+      "<span i18n=\"@@quick-info\">"
+    ]
+  },
+  "../upload/src/app/components/points-metadata-edit/points-metadata-edit.component.html": {
+    "matches": [
+      "i18n",
+      "i18n"
+    ],
+    "count": 2,
+    "line": [
+      "      <h4 i18n=\"@@required-info\">Required Information</h4>",
+      "      <h4 i18n=\"@@optional-info\">Optional Information</h4>"
+    ]
+  },
+  "../upload/src/app/components/permissions-modal/permissions-modal.component.html": {
+    "matches": [
+      "i18n",
+      "i18n",
+      "i18n"
+    ],
+    "count": 3,
+    "line": [
+      "<h2 mat-dialog-title i18n=\"@@permissions-modal-title\">Change Permissions</h2>",
+      "  <button mat-button (click)=\"onClick(false)\" i18n=\"@@cancel\">Cancel</button>",
+      "  <button mat-raised-button color=\"accent\" (click)=\"onClick(true)\" i18n=\"@@save\">Save</button>"
+    ]
+  },
+  "../upload/src/app/components/navbar/navbar.component.html": {
+    "matches": [
+      "i18n",
+      "i18n"
+    ],
+    "count": 2,
+    "line": [
+      "  <a routerLink=\"datasets\" routerLinkActive=\"active\" i18n=\"@@my-datasets\">My Datasets</a>",
+      "  <a routerLink=\"files\" routerLinkActive=\"active\" i18n=\"@@upload-data\">Upload Data</a>"
+    ]
+  },
+  "../upload/src/app/components/metadata-sections/title-section/title-section.component.html": {
+    "matches": [
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n"
+    ],
+    "count": 6,
+    "line": [
+      "      <span i18n=\"@@metadata-sections:title:title\">Title</span>",
+      "      <mol-help-info i18n-tooltip=\"@@metadata-sections:title:title:tooltip\" tooltip=\"Title of the study.\"> </mol-help-info>",
+      "      <span i18n=\"@@metadata-sections:title:description\">Description</span>",
+      "      <mol-help-info i18n-tooltip=\"@@metadata-sections:title:description:tooltip\" tooltip=\"Provide description (or abstract) for the dataset. This can include a brief summary of the reason for the study, hypotheses, methods, results, and/or a conclusion, and should provide enough information to help potential users of the data understand if it may be of interest to them.\"></mol-help-info>",
+      "      <span i18n=\"@@metadata-sections:title:geographic-coverage\">Geographic Coverage</span>",
+      "      <mol-help-info i18n-tooltip=\"@@metadata-sections:title:geographic-coverage:tooltip\" tooltip=\"Provide a description of the geographic coverage; for example, 'The study surveyed the high elevations of Santa Cruz, Isabela, and Fernandina Islands in the Galapagos, Ecuador.'\"></mol-help-info>"
+    ]
+  },
+  "../upload/src/app/components/metadata-sections/temporal-coverage-section/temporal-coverage-section.component.html": {
+    "matches": [
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n"
+    ],
+    "count": 11,
+    "line": [
+      "      <h2 i18n=\"@@metadata-sections:temporal-coverage:header\"> Temporal Coverage </h2>",
+      "      <span i18n=\"@@metadata-sections:temporal-coverage:number-of-days\">Number of Days</span>",
+      "      <mol-help-info i18n-tooltip=\"@@metadata-sections:temporal-coverage:number-of-days:tooltip\" tooltip=\"The total number of days spent surveying.\"></mol-help-info>",
+      "      <span i18n=\"@@metadata-sections:temporal-coverage:study-diurnality\">Study Diurnality</span>",
+      "      <mol-help-info i18n-tooltip=\"@@metadata-sections:temporal-coverage:study-diurnality:tooltip\" tooltip=\"Time of day sampling was conducted (day, night, both).\"></mol-help-info>",
+      "    <mat-select class=\"diurnal-nocturnal\" i18n-placeholder=\"@@metadata-sections:temporal-coverage:study-diurnality:placeholder\" placeholder=\"Study diurnality\" [(ngModel)]=\"metadataService.inv_survey_night_day\">",
+      "      <mat-option value=\"diurnal\" i18n=\"@@metadata-sections:temporal-coverage:study-diurnality:diurnal\">Diurnal</mat-option>",
+      "      <mat-option value=\"nocturnal\" i18n=\"@@metadata-sections:temporal-coverage:study-diurnality:nocturnal\">Nocturnal</mat-option>",
+      "      <mat-option value=\"both\" i18n=\"@@metadata-sections:temporal-coverage:study-diurnality:both\">Both</mat-option>",
+      "      <span i18n=\"@@metadata-sections:temporal-coverage:season\">Season</span>",
+      "      <mol-help-info i18n-tooltip=\"@@metadata-sections:temporal-coverage:season:tooltip\" tooltip=\"Season(s) in which the study was conducted (e.g., spring, summer, winter, fall, wet, dry, breeding).\"></mol-help-info>"
+    ]
+  },
+  "../upload/src/app/components/metadata-sections/taxonomic-coverage-section/taxonomic-coverage-section.component.html": {
+    "matches": [
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n"
+    ],
+    "count": 5,
+    "line": [
+      "      <h2 i18n=\"@@metadata-sections:taxonomic-coverage:header\"> Taxonomic Coverage </h2>",
+      "      <span i18n=\"@@metadata-sections:taxonomic-coverage:class\">Class</span>",
+      "      <mol-help-info i18n-tooltip=\"@@metadata-sections:taxonomic-coverage:class:tooltip\" tooltip=\"Scientific name of the taxonomic class surveyed (e.g., Amphibia, Reptilia, Mammalia, Insecta, Aves).\"></mol-help-info>",
+      "      <span i18n=\"@@metadata-sections:taxonomic-coverage:taxonomic-scope\">Taxonomic Scope</span>",
+      "      <mol-help-info i18n-tooltip=\"@@metadata-sections:taxonomic-coverage:taxonomic-scope:tooltip\" tooltip=\"Indicate if the entire class or only a subset of that class was studied. If the whole class is included, indicate mammals, reptiles, insects, etc. If only part of a class was inventoried, indicate this (e.g., small mammals, water birds, Rodentia, Nymphalidae). Scientific name or common name accepted.\"></mol-help-info>"
+    ]
+  },
+  "../upload/src/app/components/metadata-sections/survey-protocol-section/survey-protocol-section.component.html": {
+    "matches": [
+      "i18n",
+      "i18n",
+      "i18n"
+    ],
+    "count": 3,
+    "line": [
+      "      <h2 i18n=\"@@metadata-sections:survey-protocol\"> Survey Protocol </h2>",
+      "      <span i18n=\"@@metadata-sections:survey-protocol:survey-methods:title\">Survey Methods</span>",
+      "      <mol-help-info i18n-tooltip=\"@@metadata-sections:survey-protocol:survey-methods:tooltip\" tooltip=\"Provide specific details about the survey methods, such as protocols followed, equipment used, number of transects or plots, etc.\"></mol-help-info>"
+    ]
+  },
+  "../upload/src/app/components/metadata-sections/survey-dates-section/survey-dates-section.component.html": {
+    "matches": [
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n"
+    ],
+    "count": 8,
+    "line": [
+      "      <h2 i18n=\"@@metadata-sections:survey-dates:header\"> Survey Dates </h2>",
+      "        <span i18n=\"@@metadata-sections:survey-dates:start-date\">Start Date</span>",
+      "        <mol-help-info i18n-tooltip=\"@@metadata-sections:survey-dates:start-date:tooltip\" tooltip=\"The date that data collection began for this dataset.\"> </mol-help-info>",
+      "      <mat-hint i18n-innerHtml=\"@@metadata-sections:survey-dates:start-date:hint\" innerHtml=\"YYYY-MM-DD\" i18n></mat-hint>",
+      "        <span i18n=\"@@metadata-sections:survey-dates:end-date\">End Date</span>",
+      "        <mol-help-info i18n-tooltip=\"@@metadata-sections:survey-dates:end-date:tooltip\" tooltip=\"The date that data collection ended for this dataset.\"></mol-help-info>",
+      "      <mat-hint innerHtml=\"YYYY-MM-DD\" i18n-innerHtml=\"@@metadata-sections:survey-dates:end-date:hint\"></mat-hint>"
+    ]
+  },
+  "../upload/src/app/components/metadata-sections/sampling-description-section/sampling-description-section.component.html": {
+    "matches": [
+      "i18n",
+      "i18n",
+      "i18n"
+    ],
+    "count": 3,
+    "line": [
+      "      <h2 i18n=\"@@metadata-sections:sampling:header\"> Sampling </h2>",
+      "      <span i18n=\"@@metadata-sections:sampling:sampling-descriptions\">Sampling Description</span>",
+      "      <mol-help-info i18n-tooltip=\"@@metadata-sections:sampling:sampling-descriptions:tooltip\" tooltip=\"Describe the sampling procedures used in the research project. This should be similar to a description of sampling procedures found in the methods section of a journal article.\"></mol-help-info>"
+    ]
+  },
+  "../upload/src/app/components/metadata-sections/release-policy-section/release-policy-section.component.html": {
+    "matches": [
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n"
+    ],
+    "count": 6,
+    "line": [
+      "        <span i18n=\"@@metadata-sections:release-policy:header\">Release Policy</span>",
+      "          <span i18n=\"@@metadata-sections:release-policy:set-release-date\">Set release date</span>",
+      "          <mol-help-info i18n-tooltip=\"@@metadata-sections:release-policy:set-release-date:tooltip\" tooltip=\"\"></mol-help-info>",
+      "      <mat-hint i18n=\"@@yyyy-mm-dd\">YYYY-MM-DD</mat-hint>",
+      "          <span i18n=\"@@metadata-sections:release-policy:no-release-date\">Don't set release date</span>",
+      "          <mol-help-info i18n-tooltip=\"@@metadata-sections:release-policy:no-release-date:tooltip\" tooltip=\"You do not need to set the release date, but if this is selected, an email reminder will be sent every 6 months to set a release date.\"></mol-help-info>"
+    ]
+  },
+  "../upload/src/app/components/metadata-sections/quality-control-section/quality-control-section.component.html": {
+    "matches": [
+      "i18n",
+      "i18n",
+      "i18n"
+    ],
+    "count": 3,
+    "line": [
+      "      <h2 i18n=\"@@metadata-sections:quality-control:header\"> Quality </h2>",
+      "      <span i18n=\"@@metadata-sections:quality-control:quality-control-title\">Quality Control</span>",
+      "      <mol-help-info i18n-tooltip=\"@@metadata-sections:quality-control:quality-control-tooltip\" tooltip=\"Describe the actions taken to control and assess the quality of data.\"></mol-help-info>"
+    ]
+  },
+  "../upload/src/app/components/metadata-sections/permissions-section/permissions-section.component.html": {
+    "matches": [
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n"
+    ],
+    "count": 10,
+    "line": [
+      "        <span i18n=\"@@metdata-sections:permissions:header\">Permissions</span>",
+      "        <mol-help-info i18n-tooltip=\"@@metdata-sections:permissions:tooltip\" tooltip=\"Set permissions for your dataset.\"></mol-help-info>",
+      "          <span i18n=\"@@metdata-sections:permissions:mol-models\">Make available for MOL internal use in models</span>",
+      "          <mol-help-info i18n-tooltip=\"@@metdata-sections:permissions:mol-models-tooltip\" tooltip=\"Allow the Map of Life team to use this dataset for modeling.\"></mol-help-info>",
+      "          <span i18n=\"@@metdata-sections:permissions:make-public\">Make publicly visible</span>",
+      "          <mol-help-info i18n-tooltip tooltip=\"Allow the public to see this dataset.\"></mol-help-info>",
+      "        <span i18n=\"@@metdata-sections:permissions:publish-data\">Publish data</span>",
+      "        <mol-help-info i18n-tooltip tooltip=\"Data are made available to GBIF and other data partners and available for download, together with citation and license information.\"></mol-help-info>",
+      "    <div class=\"alert alert-info\" *ngIf=\"metadataService.allow_download\" i18n=\"@@metdata-sections:permissions:alert-info\">",
+      "      *ngIf=\"!metadataService.allow_visualization\" i18n=\"@@metdata-sections:permissions:dataset-private-alert\">"
+    ]
+  },
+  "../upload/src/app/components/metadata-sections/methods-section/methods-section.component.html": {
+    "matches": [
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n"
+    ],
+    "count": 29,
+    "line": [
+      "      <h2 i18n=\"@@methods\"> Methods </h2>",
+      "      <span i18n=\"@@metadata-sections:methods:inventories-compilations-both\">Inventories / Compilation / Both</span>",
+      "      <mol-help-info i18n-tooltip=\"@@metadata-sections:methods:inventories-compilations-both-tooltip\" tooltip=\"Select the method used to compile the inventory. Selecting 'inventory' indicates that the species data consist of observations made by the surveyors, 'compilation' means that the authors compiled a species list using other sources (e.g., historical evidence, other publications), while 'both' means that both methods were used.\"></mol-help-info>",
+      "      <mat-option value=\"inventories\" i18n=\"@@metadata-sections:methods:inventories-compilations-both:inventories-option\">Inventories</mat-option>",
+      "      <mat-option value=\"compilation\" i18n=\"@@metadata-sections:methods:inventories-compilations-both:compilation-option\">Compilation</mat-option>",
+      "      <mat-option value=\"both\" i18n=\"@@metadata-sections:methods:inventories-compilations-both:both-option\">Both</mat-option>",
+      "      <span i18n=\"@@metadata-sections:methods:type-of-inventory\">Type of Inventory</span>",
+      "    <mat-select i18n-placeholder=\"@@metadata-sections:methods:type-of-inventory\" placeholder=\"Type of inventory\" [(ngModel)]=\"metadataService.inv_inventory_type\" multiple>",
+      "      <mat-option value=\"restricted\" class=\"multi-select\" i18n=\"@@metadata-sections:methods:type-of-inventory:restricted\">Restricted</mat-option>",
+      "      <mat-option value=\"open search\" class=\"multi-select\" i18n=\"@@metadata-sections:methods:type-of-inventory:open-search\">Open search</mat-option>",
+      "      <mat-option value=\"opportunistic search\" class=\"multi-select\" i18n=\"@@metadata-sections:methods:type-of-inventory:opportunistic-search\">Opportunistic search</mat-option>",
+      "      <mat-option value=\"trap\" class=\"multi-select\" i18n=\"@@metadata-sections:methods:type-of-inventory:trap\">Trap</mat-option>",
+      "      <mat-option value=\"adventitious\" class=\"multi-select\" i18n=\"@@metadata-sections:methods:type-of-inventory:adventitious\">Adventitious</mat-option>",
+      "      <mat-option value=\"incidental\" class=\"multi-select\" i18n=\"@@metadata-sections:methods:type-of-inventory:incidental\">Incidental</mat-option>",
+      "    <mat-hint i18n-innerHtml=\"@@metadata-sections:methods:type-of-inventory:hint\" innerHtml=\"",
+      "      <span i18n=\"@@metadata-sections:methods:type-of-compilation\">Type of compilation</span>",
+      "    <mat-select i18n-placeholder=\"@@metadata-sections:methods:type-of-compilation:placeholder\" placeholder=\"Type of compilation\" [(ngModel)]=\"metadataService.inv_compilation_type\" multiple>",
+      "      <mat-option value=\"expert knowledge\" class=\"multi-select\" i18n=\"@@metadata-sections:methods:type-of-compilation:expert-knowledge\">Expert knowledge</mat-option>",
+      "      <mat-option value=\"primary literature\" class=\"multi-select\" i18n=\"@@metadata-sections:methods:type-of-compilation:primary-literature\">Primary literature</mat-option>",
+      "      <mat-option value=\"museum specimens\" class=\"multi-select\" i18n=\"@@metadata-sections:methods:type-of-compilation:museum-specimens\">Museum specimens</mat-option>",
+      "      <mat-option value=\"other\" class=\"multi-select\" i18n=\"@@metadata-sections:methods:type-of-compilation:other\">Other</mat-option>",
+      "    <mat-hint i18n-innerHtml=\"@@metadata-sections:methods:type-of-compilation:hint\" innerHtml=\"",
+      "      <span i18n=\"@@metadata-sections:methods:compilation-effort\">Compilation Effort</span>",
+      "    <mat-select i18n-placeholder=\"@@metadata-sections:methods:compilation-effort:placeholder\" placeholder=\"Compilation effort\" [(ngModel)]=\"metadataService.inv_compilation_effort\">",
+      "      <mat-option value=\"low\" i18n=\"@@low\">Low</mat-option>",
+      "      <mat-option value=\"medium\" i18n=\"@@medium\">Medium</mat-option>",
+      "      <mat-option value=\"high\" i18n=\"@@high\">High</mat-option>",
+      "      <span i18n=\"@@metadata-sections:methods:survey-methods:title\">Survey Methods</span>",
+      "      <mol-help-info i18n-tooltip=\"@@metadata-sections:methods:survey-methods:tooltip\" tooltip=\"Provide specific details about the survey methods, such as protocols followed, equipment used, number of transects or plots, etc.\"></mol-help-info>"
+    ]
+  },
+  "../upload/src/app/components/metadata-sections/license-section/license-section.component.html": {
+    "matches": [
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n"
+    ],
+    "count": 6,
+    "line": [
+      "      <span i18n=\"@@metadata-sections:license:license\">License</span>",
+      "      <mol-help-info i18n-tooltip=\"@@metadata-sections:license:license-tooltip\" tooltip=\"Choose the appropriate license for the dataset.\"> </mol-help-info>",
+      "    <mat-hint i18n-innerHtml=\"@@metadata-sections:license:license-hint\" innerHtml=\"",
+      "        \" i18n></mat-hint>",
+      "      <span i18n=\"@@metadata-sections:license:license-holder\">License Holder*</span>",
+      "      <mol-help-info i18n-tooltip=\"@@metadata-sections:license:license-holder-hint\" tooltip=\"The person or organization who holds the license. \"> </mol-help-info>"
+    ]
+  },
+  "../upload/src/app/components/metadata-sections/geographic-coverage-range-map-section/geographic-coverage-range-map-section.component.html": {
+    "matches": [
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n"
+    ],
+    "count": 7,
+    "line": [
+      "      <h2 i18n=\"@@geograhic-coverage\"> Geographic Coverage </h2>",
+      "      <span i18n=\"@@metadata-sections:geographic-coverage:geometry-processing\">Geometry processing</span>",
+      "      <mol-help-info i18n-tooltip=\"@@metadata-sections:geographic-coverage:geometry-processing:tooltip\" tooltip=\"What methods were used to process the geometries.\"></mol-help-info>",
+      "      <span i18n=\"@@countries\">Countries</span>",
+      "      <mol-help-info i18n-tooltip=\"@@metadata-sections:geographic-coverage:countries:tooltip\" tooltip=\"List of countries covered by this dataset. Strongly recommended.\"></mol-help-info>",
+      "      <span i18n=\"@@geographic-scope\">Geographic scope</span>",
+      "      <mol-help-info i18n-tooltip=\"@@metadata-sections:geographic-coverage:geographic-scope:tooltip\" tooltip=\"Generalized extent, may be continent, state, region, national park, etc.\"></mol-help-info>"
+    ]
+  },
+  "../upload/src/app/components/metadata-sections/geographic-coverage-inventory-section/geographic-coverage-inventory-section.component.html": {
+    "matches": [
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n"
+    ],
+    "count": 10,
+    "line": [
+      "      <h2 i18n=\"@@geographic-coverage\"> Geographic Coverage </h2>",
+      "      <span i18n=\"@@metadata-sections:geographic-coverage-inventory:spatial-extent\">Spatial Extent</span>",
+      "      <mol-help-info i18n-tooltip=\"@@metadata-sections:geographic-coverage-inventory:spatial-extent-tooltip\" tooltip=\"Record the name of the study area (e.g., county, national park, reserve, island, mountain range) or a brief description of where the study was located. Examples include: Yosemite National Park, the Galapagos, Sierra Madre Mountains, sites with exposed limestone/sandstone substrates in western Madagascar, and a 5 km2 portion of deforested land in Los Tres Picachos Forest.\"></mol-help-info>",
+      "    <mat-hint i18n=\"@@metadata-sections:geographic-coverage-inventory:spatial-extent-hint\">Extent of the study area (highly recommended)</mat-hint>",
+      "      <span i18n=\"@@metadata-sections:geographic-coverage-inventory:site-details\">Site Details</span>",
+      "      <mol-help-info i18n-tooltip=\"@@metadata-sections:geographic-coverage-inventory:site-details-tooltip\" tooltip=\"Record any habitat, climate, disturbance, or other details that describe the study site.\"></mol-help-info>",
+      "    <mat-hint i18n=\"@@metadata-sections:geographic-coverage-inventory:site-details-hint\">Author reported site information (utilizes terms below per site if more than one)</mat-hint>",
+      "      <span i18n=\"@@metadata-sections:geographic-coverage-inventory:area\">Area (km<sup>2</sup>)</span>",
+      "      <mol-help-info i18n-tooltip=\"@@metadata-sections:geographic-coverage-inventory:area-tooltip\" tooltip=\"Study area in square kilometers.\"></mol-help-info>",
+      "        \" i18n-innerHtml=\"@@metadata-sections:geographic-coverage-inventory:area-hint\"></mat-hint>"
+    ]
+  },
+  "../upload/src/app/components/metadata-sections/general-section/general-section.component.html": {
+    "matches": [
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n"
+    ],
+    "count": 7,
+    "line": [
+      "      <h2 i18n=\"@@general\"> General </h2>",
+      "      <span i18n=\"@@metadata-sections:general:project-url\">Project URL</span>",
+      "      <mol-help-info i18n-tooltip=\"@@metadata-sections:general:project-url-tooltip\" tooltip=\"URL of the source, paper, or institution.\"></mol-help-info>",
+      "      <span i18n=\"@@metadata-sections:general:notes\">Notes</span>",
+      "      <mol-help-info i18n-tooltip=\"@@metadata-sections:general:notes-tooltip\" tooltip=\"Provide any additional notes that you would like to include about this dataset.\"></mol-help-info>",
+      "      <span i18n=\"@@metadata-sections:general:keywords\">Keywords</span>",
+      "      <mol-help-info i18n-tooltip=\"@@metadata-sections:general:keywords-tooltip\" tooltip=\"List keywords associated with this study.\"></mol-help-info>"
+    ]
+  },
+  "../upload/src/app/components/metadata-sections/custom-section/custom-section.component.html": {
+    "matches": [
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n"
+    ],
+    "count": 4,
+    "line": [
+      "        <input matInput type=\"text\" i18n-placeholder=\"@@field\" placeholder=\"Field\" [(ngModel)]=\"customField.key\">",
+      "        <input matInput type=\"text\" i18n-placeholder=\"@@value\" placeholder=\"Value\" [(ngModel)]=\"customField.value\">",
+      "        <button (click)=\"metadataService.removeCustomField(i)\" i18n=\"@@delete\">",
+      "       <span i18n=\"@@add-field\">Add field</span>"
+    ]
+  },
+  "../upload/src/app/components/metadata-sections/completeness-section/completeness-section.component.html": {
+    "matches": [
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n"
+    ],
+    "count": 10,
+    "line": [
+      "        <span i18n=\"@@completeness\">Completeness</span>",
+      "        <mol-help-info i18n-tooltip=\"@@metadata-sections:completeness:completeness-tooltip\" tooltip=\"Assess the representativeness of the species list for the study area and taxonomic scope. For example, were all of the amphibians in the study area recorded, or does the inventory only reflect half of the amphibians present? Completeness can be inferred from survey effort and methods and can be assessed using the length and timing of the study, spatial extent of sampling, inclusion of all habitats present in study area, expertise of individuals conducting the inventory, and/or species accumulation curves.\"></mol-help-info>",
+      "        <span i18n=\"@@metadata-sections:completeness:lower-bound-title\">Lower bound</span>",
+      "        <mol-help-info i18n-tooltip=\"@@metadata-sections:completeness:lower-bound-tooltip\" tooltip=\"Inferred completeness is captured in quartiles (i.e., 0, 25, 50, 75). Indicate the lower bound of completeness percentage for the study. For example, if you believe the inventory represents 25-50% of the species present in the area, indicate a value of 25 for the lower bound.\"></mol-help-info>",
+      "        <span i18n=\"@@metadata-sections:completeness:upper-bound-title\">Upper bound</span>",
+      "        <mol-help-info i18n-tooltip=\"@@metadata-sections:completeness:upper-bound-tooltip\" tooltip=\"Inferred completeness is captured in quartiles (i.e., 25, 50, 75, 100). Indicate the upper bound of completeness percentage for the study. For example, if you believe the inventory represents 25-50% of the species present in the area, indicate a value of 50 for the upper bound.\"></mol-help-info>",
+      "      <span i18n=\"@@metadata-sections:completeness:rationale-title\">Rationale used to determine completeness</span>",
+      "      <mol-help-info i18n-tooltip=\"@@metadata-sections:completeness:rationale-tooltip\" tooltip=\"Provide an explanation for your completeness score. Examples of high completeness: the surveyors used several different survey methods to inventory the target taxonomic group (i.e., Ungulates); the surveyors made great effort to survey each habitat type in the study area that a species from the target group would be found in; the authors utilized several resources such as museum specimens and primary literature to produce a complete inventory. Examples of low completeness: the study length was not appropriate for the size of the area; inappropriate or insufficient methods were used for the target group; the study area was difficult to traverse/hard to access.\"></mol-help-info>",
+      "      <span i18n=\"@@metadata-sections:completeness:opt-out-checkbox\">Opt out of specifying completeness</span>",
+      "      <span i18n=\"@@metadata-sections:completeness:reason-for-no-completeness\">Reason for not providing completeness info</span>"
+    ]
+  },
+  "../upload/src/app/components/metadata-sections/citation-section/citation-section.component.html": {
+    "matches": [
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n"
+    ],
+    "count": 5,
+    "line": [
+      "      <h2 i18n=\"@@citation\"> Citation </h2>",
+      "      <span i18n=\"@@doi\">DOI</span>",
+      "      <mol-help-info i18n-tooltip=\"@@metadata-sections:citation-section:doi-tooltip\" tooltip=\"Digital Object Identifier (DOI) for the dataset or source.\"></mol-help-info>",
+      "      <span i18n=\"@@ISBN\">ISBN</span>",
+      "      <mol-help-info i18n-tooltip=\"@@metadata-sections:citation-section:isbn-tooltip\" tooltip=\"International Standard Book Number (ISBN) for a book.\"></mol-help-info>"
+    ]
+  },
+  "../upload/src/app/components/metadata-sections/citation-required-section/citation-required-section.component.html": {
+    "matches": [
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n"
+    ],
+    "count": 6,
+    "line": [
+      "      <h2 i18n=\"@@citation\"> Citation </h2>",
+      "      <span i18n=\"@@citation\">Citation</span>",
+      "      <mol-help-info i18n-tooltip=\"@@metadata-sections:citation-tooltip\" tooltip=\"Full citation of the source of the dataset, in APA style.\"></mol-help-info>",
+      "      <span i18n=\"@@metadata-sections:short-citation\">Short Citation</span>",
+      "      <mol-help-info i18n-tooltip=\"@@metadata-sections:short-citation-tooltip\" tooltip=\"Brief citation for this dataset.\"></mol-help-info>",
+      "    <mat-hint i18n-innerHtml=\"@@metadata-sections:short-citation-hint\" innerHtml=\""
+    ]
+  },
+  "../upload/src/app/components/metadata-sections/additional-info-section/additional-info-section.component.html": {
+    "matches": [
+      "i18n",
+      "i18n",
+      "i18n"
+    ],
+    "count": 3,
+    "line": [
+      "      <h2 i18n=\"@@additional-information\"> Additional Information </h2>",
+      "        <span i18n=\"@@metadata-sections:endemic-info\">Endemic information</span>",
+      "        <mol-help-info i18n-tooltip=\"@@metadata-sections:endemic-tooltip\" tooltip=\"Information about how this species is endemic to the region.\"></mol-help-info>"
+    ]
+  },
+  "../upload/src/app/components/metadata-instructions-dialog/metadata-instructions-dialog.component.html": {
+    "matches": [
+      "i18n",
+      "i18n",
+      "i18n"
+    ],
+    "count": 3,
+    "line": [
+      "        <h4 i18n=\"@@instructions\">Instructions</h4>",
+      "    <div class=\"dialog-content\" i18n=\"@@metadata-instructions-dialog-instructions\">",
+      "        <button mat-button class=\"mol-button primary basic\" (click)=\"onCloseClick()\" i18n=\"@@close\">Close</button>"
+    ]
+  },
+  "../upload/src/app/components/match-columns-dialog/match-columns-dialog.component.html": {
+    "matches": [
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n"
+    ],
+    "count": 9,
+    "line": [
+      "<h2 mat-dialog-title i18n=\"@@match-columns\">Match Columns</h2>",
+      "  <p i18n=\"@@match-columns-dialog-info\">",
+      "    <label i18n=\"@@match-columns-dialog-match-statement\">Match \"{{verbatim.name}}\" to:</label>",
+      "      <mat-option value=\"\" i18n=\"@@no-match\">No match</mat-option>",
+      "      <mat-optgroup i18n-label=\"@@optional\" label=\"Optional\" *ngIf=\"getTerms().optional.length\">",
+      "    <p i18n=\"@@match-columns-no-recorded-by\"> We didn't find a <strong>recorded_by</strong> field in your records. Please specify the name of the person that recorded the observations: </p>",
+      "    <mat-hint i18n=\"@@match-columns-recorded-by-info\">Value will be applied to all rows in the dataset</mat-hint>",
+      "    <button mat-button class=\"mol-button white basic\" (click)=\"onClick(false)\" i18n=\"@@cancel\">Cancel</button>",
+      "    <button mat-raised-button  class=\"mol-button primary raised\" (click)=\"onClick(true)\" i18n=\"@@done\">Done</button>"
+    ]
+  },
+  "../upload/src/app/components/inventory-metadata-edit/inventory-metadata-edit.component.html": {
+    "matches": [
+      "i18n",
+      "i18n"
+    ],
+    "count": 2,
+    "line": [
+      "      <h4 i18n=\"@@required-info\">Required Information</h4>",
+      "      <h4 i18n=\"@@optional-info\">Optional Information</h4>"
+    ]
+  },
+  "../upload/src/app/components/harmonizer-instructions-modal/harmonizer-instructions-modal.component.html": {
+    "matches": [
+      "i18n",
+      "i18n"
+    ],
+    "count": 2,
+    "line": [
+      "        <h3 i18n=\"@@instructions\">Instructions</h3>",
+      "    <div class=\"dialog-content\" i18n=\"@@harmonizer-instructions\">"
+    ]
+  },
+  "../upload/src/app/components/finalize-dataset-modal/finalize-dataset-modal.component.html": {
+    "matches": [
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n"
+    ],
+    "count": 4,
+    "line": [
+      "<h2 mat-dialog-title i18n=\"@@finalize-dataset-modal:title\">Almost there!</h2>",
+      "  <p i18n=\"@@finalize-dataset-modal:info\">",
+      "  <button mat-button (click)=\"onClick(false)\" i18n=\"@@cancel\">Cancel</button>",
+      "  <button mat-raised-button color=\"primary\" (click)=\"onClick(true)\" i18n=\"@@finalize\">Finalize</button>"
+    ]
+  },
+  "../upload/src/app/components/files-form/files-form.component.html": {
+    "matches": [
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n"
+    ],
+    "count": 83,
+    "line": [
+      "        <div i18n=\"@@basic-information\"> Basic Information </div>",
+      "        <div i18n=\"@@upload-files\">Upload Files</div>",
+      "        <div i18n=\"@@match-columns\"> Match Columns </div>",
+      "        <div i18n=\"@@review-geometry\"> Review Geometry </div>",
+      "        <div i18n=\"@@metadata\"> Metadata </div>",
+      "    <h3 i18n=\"@@basic-information\">Basic Information</h3>",
+      "        <label i18n=\"@@taxonomic-group\">Taxonomic Group</label>",
+      "        <mat-hint i18n=\"@@files-form:basic-info:form:taxonomic-group-hint\">Select from the list of groups currently supported by MOL</mat-hint>",
+      "        <label [ngClass]=\"!taxon ? 'disabled' : '' \" i18n=\"@@dataset-type\">Dataset Type</label>",
+      "        <mat-hint i18n=\"@@files-form:basic-info:form:occurrence-or-inventory\">Occurrence or Inventory</mat-hint>",
+      "        <label i18n=\"@@files-form:basic-info:form:spatial-data-format\">Spatial Data Format</label>",
+      "            i18n=\"@@shapefile\"",
+      "            i18n=\"@@coordinates\"",
+      "        <mat-hint i18n=\"@@files-form:basic-info:form:spatial-data-format-hint\"> Select how the spatial data are stored: <strong> Shapefile </strong> (polygon) or <strong> CSV </strong> (coordinates) </mat-hint>",
+      "      <h4 i18n=\"@@files-form:basic-info:form:study-area-title\"> Define Study Area </h4>",
+      "      <p i18n=\"@@files-form:basic-info:form:study-area-description\"> Select the shape of the study area in reference to the provided coordinates. </p>",
+      "            <span i18n=\"@@files-form:basic-info:form:study-area-selected\">Study area selected!</span>",
+      "          <button mat-button class=\"mol-button basic primary\" (click)=\"openCoordinateTypeModal()\" i18n=\"@@files-form:basic-info:form:study-area-title\">Define Study Area</button>",
+      "      <button mat-button (click)=\"nextStep()\" [disabled]=\"!stepComplete(1)\" class=\"mol-button primary basic next\" i18n=\"@@next\"> Next </button>",
+      "        <mat-icon class=\"instructions-icon\">info</mat-icon> <span i18n=\"@@instructions\">Instructions</span>",
+      "    <div i18n=\"@@files-form:basic-info:instructions:text-part-1\">",
+      "            <strong i18n=\"@@files-form:basic-info:instructions:text-picking-taxonomic-group-title\"> Picking a Taxonomic Group </strong>",
+      "      <div i18n=\"@@files-form:basic-info:instructions:text-picking-taxonomic-group-description\">",
+      "            <strong i18n=\"@@files-form:basic-info:instructions:text-picking-dataset-type-title\"> Picking a Dataset Type </strong>",
+      "      <div i18n=\"@@files-form:basic-info:instructions:text-picking-dataset-type-description\">",
+      "    <h3 i18n=\"@@files-form:upload-step:title\"> Upload Files </h3>",
+      "      <h4 i18n=\"@@files-form:upload-step:point-inventory-file-number-title\">The species names and spatial data are in:</h4>",
+      "          <mat-radio-button class=\"example-margin\" value=\"1\" i18n=\"@@files-form:upload-step:point-inventory-file-number-one\"><strong>Single CSV file</strong> - One file with species names and coordinates</mat-radio-button>",
+      "          <mat-radio-button class=\"example-margin\" value=\"2\" i18n=\"@@files-form:upload-step:point-inventory-file-number-two\"><strong>Separate CSV files</strong> - One file with species and region name(s), and a second file with coordinates and region name(s)</mat-radio-button>",
+      "        <h4 *ngIf=\"uploadService && datasetType === 'Inventory' && selectedGeometryFormat === 'coordinates'\" i18n=\"@@upload-files\"> Upload Files </h4>",
+      "          i18n-label=\"@@files-form:upload-files:inventory:shapefile:select-csv\"",
+      "          i18n-label=\"@@files-form:upload-files:inventory:shapefile:select-shapefile\"",
+      "        <mat-hint *ngIf=\"datasetType === 'Inventory' && selectedGeometryFormat === 'shapefile'\" i18n=\"@@files-form:upload-files:inventory:shapefile:requirements\"> Required: a zipped folder with .shp, .dbf, .prj, and .shx files </mat-hint>",
+      "          i18n-label=\"@@files-form:upload-files:point-inventory:select-species-csv\"",
+      "          i18n-label=\"@@files-form:upload-files:point-inventory:select-geometry-csv\"",
+      "          i18n-label=\"@@files-form:upload-files:point-inventory:select-combined-csv\"",
+      "          i18n-label=\"@@files-form:upload-files:occurrence:select-scsv\"",
+      "      <h3 i18n=\"@@files-form:upload-files:error-title\">Please fix the following issues and upload the file again.</h3>",
+      "      <div *ngFor=\"let error of errors()\" i18n=\"@@files-form:upload-files:error-text\">",
+      "    <div class=\"alert alert-info\" *ngIf=\"errors().length\" i18n=\"@@files-form:see-instructions\">",
+      "      <button mat-button (click)=\"previousStep()\" class=\"mol-button primary stroked next\" i18n=\"@@back\"> Back </button>",
+      "      <button mat-button (click)=\"nextStep()\" [disabled]=\"!stepComplete(2)\" class=\"mol-button primary basic next\" i18n=\"@@next\"> Next </button>",
+      "          <mat-icon class=\"instructions-icon\">info</mat-icon> <span i18n=\"@@instructions\">Instructions</span>",
+      "    <h4 i18n=\"@@preparing-data-for-upload\"> Preparing Data for Upload </h4>",
+      "    <p i18n=\"@@files-form:upload-step:instructions:data-prep-description\">Data preparation steps vary depending on the dataset type. The following guidelines provide detailed information on how the data should be formatted for each type of dataset. We strongly recommend that you label the columns in your data tables according to the example provided. You will have a chance to check that the column names in the dataset are being matched to Map of Life fields, but the upload process will be easier if you format the files accordingly before upload. Additional fields can be included, preferably with the field names in lower camel case. Additional column names must not contain whitespace. </p>",
+      "    <div  *ngIf=\"datasetType === 'Occurrence'\" i18n=\"@@files-form:upload-step:instructions:occurence\">",
+      "    <div *ngIf=\"datasetType === 'Inventory'\" i18n=\"@@files-form:upload-step:instructions:inventory\">",
+      "    <h4 i18n=\"@@additional-information\"> Additional Information </h4>",
+      "        <mat-panel-title i18n=\"@@additional-columns\">",
+      "      <div i18n=\"@@additional-information-description\">",
+      "        <mat-panel-title i18n=\"@@additional-columns\">",
+      "      <p i18n=\"@@files-form:upload-step:inventory:additional-columns\">If you have additional information you'd like to include, simply add extra columns in the .CSV file to the right of the species names.</p>",
+      "        <mat-panel-title i18n=\"@@troubleshooting\">",
+      "      <div i18n=\"@@files-form:upload-step:instructions:troubleshooting\">",
+      "    <h3 i18n=\"@@match-columns\">Match Columns</h3>",
+      "        <span *ngIf=\"datasetType === 'Occurrence' || (datasetType === 'Inventory' && uploadService?.numFiles === '1')\" i18n=\"@@files-form:match-columns-step:form:single-file-info\">",
+      "        <span *ngIf=\"datasetType === 'Inventory' && (selectedGeometryFormat === 'shapefile' || uploadService?.numFiles === '2')\" i18n=\"@@files-form:match-columns-step:form:two-file-info\">",
+      "            <span i18n=\"@@columns-matched\">Columns matched!</span>",
+      "            <span i18n=\"@@files-form:match-columns-step:form:could-not-process-data\">We could not process your data</span>",
+      "            <span i18n=\"@@files-form:match-columns-step:form:matching-terms\">Matching terms...</span>",
+      "              type=\"button\" i18n=\"@@match-columns\">",
+      "      <h3 i18n=\"@@files-form:match-columns-step:form:fix-match-errors\">Please fix the following issues and upload the file again.</h3>",
+      "      <div *ngFor=\"let error of errors()\" i18n=\"@@files-form:match-columns-step:form:matching-errors-list\">",
+      "    <div class=\"alert alert-info\" *ngIf=\"errors().length\" i18n=\"@@files-form:see-instructions\">",
+      "      <button mat-button (click)=\"previousStep()\" class=\"mol-button primary stroked next\" i18n=\"@@back\"> Back </button>",
+      "      <button mat-button (click)=\"nextStep()\" [disabled]=\"!stepComplete(3)\" class=\"mol-button primary basic next\" i18n=\"@@next\"> Next </button>",
+      "         <span i18n=\"@@instructions\">Instructions</span>",
+      "    <span i18n=\"@@files-form:match-columns-step:instructions:overview\">",
+      "    <div *ngIf=\"datasetType === 'Occurrence'\" i18n=\"@@files-form:match-columns-step:instructions:occurrence\">",
+      "    <div *ngIf=\"datasetType === 'Inventory'\" i18n=\"@@files-form:match-columns-step:instructions:inventory\">",
+      "    <p i18n=\"@@files-form:match-columns-step:instructions:assurance\"> Please be assured that if you upload data that does not match our existing metadata terms, they will still be uploaded to the database and stored with the rest of your data. </p>",
+      "    <h3 i18n=\"@@files-form:review-geometry:form:title\"> Review Geometry </h3>",
+      "    <div class=\"alert alert-danger\" *ngIf=\"uploadService && uploadService.fileSizeError\" i18n=\"@@files-form:review-geometry:form:file-size-too-large-error\">",
+      "    <div class=\"alert alert-warning\" *ngIf=\"uploadService && uploadService.dataEmptyErrors.length\" i18n=\"@@files-form:review-geometry:form:no-features-error\">",
+      "      <button mat-button (click)=\"previousStep()\" class=\"mol-button primary stroked next\" i18n=\"@@back\"> Back </button>",
+      "      <button mat-button (click)=\"nextStep()\" [disabled]=\"!stepComplete(4)\" class=\"mol-button primary basic next\" i18n=\"@@next\"> Next </button>",
+      "          <span i18n=\"@@instructions\">Instructions</span>",
+      "    <p i18n=\"@@files-form:review-geometry:instructions:description\">Explore the map preview to verify that the spatial information you provided in the uploaded files is correct. If the study areas are not plotting correctly, please go back to the upload files step and upload corrected spatial data. If you continue to have problems, please contact us at <a href=\"mailto:info@mol.org\">info@mol.org</a>.</p>",
+      "    <h3 i18n=\"@@metadata\"> Metadata </h3>",
+      "      <button mat-button (click)=\"previousStep()\" class=\"mol-button primary stroked next\" i18n=\"@@back\"> Back </button>",
+      "      <button mat-button type=\"button\" (click)=\"nextPage()\" [disabled]=\"!stepComplete(5)\" class=\"mol-button primary basic next\" i18n=\"@@submit\"> Submit </button>",
+      "        <span i18n=\"@@instructions\">Instructions</span>",
+      "    <div i18n=\"@@files-form:metadata:instructions:description\">"
+    ]
+  },
+  "../upload/src/app/components/feature-attributes-dialog/feature-attributes-dialog.component.html": {
+    "matches": [
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n"
+    ],
+    "count": 45,
+    "line": [
+      "    <p i18n=\"@@metadata-sections:feature-attributes-dialog:description\">Any attributes you apply to this <strong>range map</strong> will apply to all of the shapes in the map. If you need separate attributes, you can create another range map immediately after submitting.</p>",
+      "    <mat-tab i18n-label=\"@@required\" label=\"Required\">",
+      "            <span i18n=\"@@metadata-sections:feature-attributes-dialog:presence\">Presence</span>",
+      "            <mol-help-info  i18n-tooltip=\"@@metadata-sections:feature-attributes-dialog:presence:tooltip\" tooltip=\"Extant - The species is known or thought to likely occur presently in the area. Possibly Extant - There is no record of the species in the area, but the species may possibly occur, based on the distribution of potentially suitable habitat at appropriate altitudes. Extinct – The species was formerly known or thought very likely to occur in the area, but it has been confirmed that the species no longer occurs here.\"></mol-help-info>",
+      "            <mat-option value=\"extant\" i18n=\"@@metadata-sections:feature-attributes-dialog:presence:option-extant\">",
+      "            <mat-option value=\"possibly-extant\" i18n=\"@@metadata-sections:feature-attributes-dialog:presence:option-possibly-extant\">",
+      "            <mat-option value=\"extinct\" i18n=\"@@metadata-sections:feature-attributes-dialog:presence:option-possibly-extinct\">",
+      "            <span i18n=\"@@metadata-sections:feature-attributes-dialog:origin\">Origin</span>",
+      "            <mol-help-info i18n-tooltip=\"@@metadata-sections:feature-attributes-dialog:origin:tooltip\" tooltip=\"Why or how is the species in this area? (Native - The species is/was native to the area.  Non-native - The species has not historically been found here, but currently inhabits the area.)\"></mol-help-info>",
+      "            <mat-option value=\"native\" i18n=\"@@metadata-sections:feature-attributes-dialog:origin:native\">",
+      "            <mat-option value=\"non-native\" i18n=\"@@metadata-sections:feature-attributes-dialog:origin:non-native\">",
+      "            <span i18n=\"@@metadata-sections:feature-attributes-dialog:seasonality\">Seasonality</span>",
+      "           <mol-help-info i18n-tooltip=\"@@metadata-sections:feature-attributes-dialog:seasonality:tooltip\" tooltip=\"What is the seasonal presence of the species in the area?   Resident - the species is/was known or thought very likely to be present throughout the year.  Breeding Season – The species is/was known or thought very likely to occur regularly during the breeding season and to breed.  Non-breeding Season – The species is/was known or thought very likely to occur regularly during the non-breeding season of the species.Passage – The species is/was known or thought very likely to occur regularly during a relatively short period of the year on migration between breeding and non-breeding ranges.\"></mol-help-info>",
+      "            <mat-option value=\"resident\" i18n=\"@@metadata-sections:feature-attributes-dialog:seasonality:resident\">",
+      "            <mat-option value=\"breeding\" i18n=\"@@metadata-sections:feature-attributes-dialog:seasonality:breeding\">",
+      "            <mat-option value=\"non-breeding\" i18n=\"@@metadata-sections:feature-attributes-dialog:seasonality:non-breeding\">",
+      "            <mat-option value=\"passage\" i18n=\"@@metadata-sections:feature-attributes-dialog:seasonality:passage\">",
+      "        <span i18n=\"@@metadata-sections:feature-attributes-dialog:temporal-scope\">Temporal Scope</span>",
+      "        <mol-help-info i18n-tooltip=\"@@feature-attributes-dialog:temporal-scope:tooltip\" tooltip=\"Identify the starting and ending years of the study. This would be the very start and the very end years the study was carried out.\"></mol-help-info>",
+      "          i18n-placeholder=\"@@year-yyyy\"",
+      "        <span i18n=\"@@to\">to</span>",
+      "          i18n-placeholder=\"@@year-yyyy\"",
+      "            <span i18n=\"@@metadata-sections:feature-attributes-dialog:subspecies\">Subspecies</span>",
+      "            <mol-help-info i18n-tooltip=\"@@metadata-sections:feature-attributes-dialog:subspecies:tooltip\" tooltip=\"Subspecies\"></mol-help-info>",
+      "            <span i18n=\"@@metadata-sections:feature-attributes-dialog:population\">Population</span>",
+      "              <mol-help-info i18n-tooltip=\"@@metadata-sections:feature-attributes-dialog:population:tooltip\" tooltip=\"Population\"></mol-help-info>",
+      "            <span i18n=\"@@metadata-sections:feature-attributes-dialog:source\">Source</span>",
+      "              <mol-help-info i18n-tooltip=\"@@metadata-sections:feature-attributes-dialog:source\" tooltip=\"Source\"></mol-help-info>",
+      "            <span i18n=\"@@metadata-sections:feature-attributes-dialog:geographic-coverage\">Geographic Coverage</span>",
+      "              <mol-help-info i18n-tooltip=\"@@metadata-sections:feature-attributes-dialog:geographic-coverage:tooltip\" tooltip=\"Geographic coverage\"></mol-help-info>",
+      "            <span i18n=\"@@metadata-sections:feature-attributes-dialog:taxonomic-citation\">Taxonomic Citation</span>",
+      "              <mol-help-info i18n-tooltip=\"@@metadata-sections:feature-attributes-dialog:taxonomic-citation:tooltip\" tooltip=\"Taxonimic Citation\"></mol-help-info>",
+      "            <span i18n=\"@@metadata-sections:feature-attributes-dialog:marine-terrestrial\">Marine / Terrestrial</span>",
+      "              <mol-help-info i18n-tooltip=\"@@metadata-sections:feature-attributes-dialog:marine-terrestrial:tooltip\" tooltip=\"Marine or terrestrial species\"></mol-help-info>",
+      "            <mat-option value=\"marine\" i18n=\"@@metadata-sections:feature-attributes-dialog:marine-terrestrial:marine-option\">",
+      "            <mat-option value=\"terrestrial\" i18n=\"@@metadata-sections:feature-attributes-dialog:marine-terrestrial:terrestrial-option\">",
+      "            <span i18n=\"@@notes\">Notes</span>",
+      "              <mol-help-info i18n-tooltip=\"@@notes\" tooltip=\"Notes\"></mol-help-info>",
+      "          <input matInput type=\"text\" [(ngModel)]=\"rangeMapService.feature.featureAttributes.notes\"  i18n />",
+      "    <mat-tab i18n-label=\"@@feature-attributes-dialog:custom\" label=\"Custom\">",
+      "            <input matInput type=\"text\" i18n-placeholder=\"@@key\" placeholder=\"key\" class=\"custom-input-key\" [(ngModel)]=\"customAttribute.key\">",
+      "            <input matInput type=\"text\" i18n-placeholder=\"@@value\" placeholder=\"value\" class=\"custom-input-value\" [(ngModel)]=\"customAttribute.value\">",
+      "          <span i18n=\"@@add-field\">Add field</span> <mat-icon>add_circle</mat-icon>",
+      "        (click)=\"saveAndClose()\" i18n=\"@@close\">",
+      "        <span i18n=\"@@submit-range-map\">Submit Range Map</span>"
+    ]
+  },
+  "../upload/src/app/components/display-dataset-overview/display-dataset-overview.component.html": {
+    "matches": [
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n"
+    ],
+    "count": 16,
+    "line": [
+      "    <div class=\"title\" i18n=\"@@groups\">Groups</div>",
+      "    <div class=\"title\" i18n=\"@@species\">Species</div>",
+      "    <div class=\"title\" i18n=\"@@records\">Records</div>",
+      "    <div class=\"title\" i18n=\"@@locations\">Locations</div>",
+      "    <h2><i class=\"fa fa-table\"></i><span i18n=\"@@dataset-overview:species-groups\">Species Groups</span></h2>",
+      "            <th i18n=\"@@group\">Group</th>",
+      "            <th i18n=\"@@count\">Count</th>",
+      "    <h2><i class=\"fa fa-table\"></i><span i18n=\"@@species\">Species</span></h2>",
+      "            <th i18n=\"@@species\">Species</th>",
+      "            <th i18n=\"@@count\">Count</th>",
+      "      <span i18n=\"@@dataset-overview:latest-records\">Latest Records</span>",
+      "            <th i18n=\"@@species\">Species</th>",
+      "            <th i18n=\"@@event-date\">Event date</th>",
+      "    <h2><i class=\"fa fa-table\"></i><span i18n=\"@@dataset-overview:unique-site-counts\">Unique Site Counts</span></h2>",
+      "            <th i18n=\"@@location\">Location</th>",
+      "            <th i18n=\"@@species\">Species</th>"
+    ]
+  },
+  "../upload/src/app/components/display-dataset-metadata/display-dataset-metadata.component.html": {
+    "matches": [
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n"
+    ],
+    "count": 4,
+    "line": [
+      "    <strong i18n=\"@@dataset-metdata-tab:uploaded-by\">Uploaded by:</strong> {{creator}}",
+      "    <strong i18n=\"@@dataset-metdata-tab:observation-date-range\">Observation date range:</strong> {{fromDate}} to {{toDate}}",
+      "    <strong i18n=\"@@dataset-metdata-tab:taxa\">Taxa:</strong> {{ taxa }}",
+      "  <button mat-button (click)=\"editMetadata()\" class=\"mol-button basic primary\" *ngIf=\"overview.summary.product_type === 'range'\" i18n=\"@@edit-metadata\">"
+    ]
+  },
+  "../upload/src/app/components/display-dataset-map/display-dataset-map.component.html": {
+    "matches": [
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n"
+    ],
+    "count": 12,
+    "line": [
+      "            <mat-select i18n-placeholder=\"@@species\" placeholder=\"Species\" [(ngModel)]=\"currentlySelectedSpecies\" (change)=\"speciesChange($event)\" value=\"all\">",
+      "                <mat-option value='all' selected i18n=\"@@all\"> All </mat-option>",
+      "            <mat-select i18n-placeholder=\"@@region\" placeholder=\"Region\" [(ngModel)]=\"currentlySelectedRegion\" (change)=\"regionChange($event)\" value=\"all\">",
+      "                <mat-option value='all' selected i18n=\"@@all\"> All </mat-option>",
+      "            <mat-select i18n-placeholder=\"@@feature\" placeholder=\"Feature\" [(ngModel)]=\"currentlySelectedERMFeature\" (change)=\"rangeFeatureChange($event)\" value=\"all\">",
+      "                <mat-option value='all' selected i18n=\"@@all\"> All </mat-option>",
+      "            <mat-select i18n-placeholder=\"@@dataset-map:color-by\" placeholder=\"Color by:\"",
+      "                <mat-option value='region' selected i18n=\"@@region\"> Region </mat-option>",
+      "                <mat-option value='species' selected i18n=\"@@number-of-species\"> Number of Species </mat-option>",
+      "    <div class=\"legend-title\" i18n=\"@@number-of-species\">",
+      "        <div class=\"start\" i18n=\"@@less\">",
+      "        <div class=\"end\" i18n=\"@@more\">"
+    ]
+  },
+  "../upload/src/app/components/display-dataset-features/display-dataset-features.component.html": {
+    "matches": [
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n"
+    ],
+    "count": 4,
+    "line": [
+      "                <th i18n=\"@@scientific-name\"> Scientific Name </th>",
+      "                <th i18n=\"@@common-name\"> Common Name </th>",
+      "                <th i18n=\"@@date\"> Date </th>",
+      "                <th i18n=\"@@edit\"> Edit </th>"
+    ]
+  },
+  "../upload/src/app/components/display-dataset-acl/display-dataset-acl.component.html": {
+    "matches": [
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n"
+    ],
+    "count": 4,
+    "line": [
+      "    <h1 i18n=\"@@display-dataset-acl:saving-dataset-info\">We are saving your dataset.</h1>",
+      "    <h1 i18n=\"@@display-dataset-acl:saving-dataset-error\">We could not save your dataset.</h1>",
+      "    <h1 i18n=\"@@display-dataset-acl:permissions-saved-success\">Your permissions are saved.</h1>",
+      "    <button mat-raised-button color=\"primary\" (click)=\"save()\" i18n=\"@@save\">Save</button>"
+    ]
+  },
+  "../upload/src/app/components/delete-dataset-modal/delete-dataset-modal.component.html": {
+    "matches": [
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n"
+    ],
+    "count": 4,
+    "line": [
+      "<h2 mat-dialog-title i18n=\"@@delete-dataset-title\">Delete Dataset</h2>",
+      "  <p class=\"text-center\" i18n=\"@@delete-dataset-prompt\">Are you sure you want to delete this dataset? </p>",
+      "  <button mat-button (click)=\"onClick(false)\" i18n=\"@@cancel\">Cancel</button>",
+      "  <button mat-raised-button color=\"primary\" (click)=\"onClick(true)\" i18n=\"@@delete\">Delete</button>"
+    ]
+  },
+  "../upload/src/app/components/coordinate-type-modal/coordinate-type-modal.component.html": {
+    "matches": [
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n",
+      "i18n"
+    ],
+    "count": 30,
+    "line": [
+      "    <h2 i18n=\"@@coordinate-type-modal:define-study-area\"> Define Study Area </h2>",
+      "        <h4 i18n=\"@@coordinate-type-modal:study-area-shape\"> Shape of study area </h4>",
+      "            <mat-radio-button class=\"example-margin\" value=\"circle\" i18n=\"@@circle\">Circle</mat-radio-button>",
+      "            <mat-radio-button class=\"example-margin\" value=\"square\" i18n=\"@@square\">Square</mat-radio-button>",
+      "        <h4 i18n=\"@@coordinate-type-modal:coordinate-position\"> Position of coordinate in study area </h4>",
+      "        <h4 i18n=\"@@coordinate-type-modal:size-measurement\"> Specify size measurement </h4>",
+      "            <mat-radio-button class=\"example-margin\" value=\"radius\" i18n=\"@@coordinate-type-modal:size-measurement-radius\">Radius</mat-radio-button>",
+      "            <mat-radio-button class=\"example-margin\" value=\"area\" i18n=\"@@coordinate-type-modal:size-measurement-area\">Area</mat-radio-button>",
+      "            <h4 i18n=\"@@coordinate-type-modal:specify-size\"> Specify size </h4>",
+      "                <input type=\"number\" matInput  i18n-placeholder=\"@@coordinate-type-modal:size-area\" placeholder=\"Area (meters squared)\" [(ngModel)]=\"selection.area\">",
+      "                <input type=\"number\" matInput i18n-placeholder=\"@@coordinate-type-modal:size-radius\" placeholder=\"Radius (meters)\" [(ngModel)]=\"selection.radius\">",
+      "            <mat-hint i18n=\"@@coordinate-type-modal:size-hint\"> If you don't know the size of your study area, consider uploading your data as an occurrence dataset instead. </mat-hint>",
+      "        <h4 i18n=\"@@coordinate-type-modal:position-title\"> Position of coordinate in study area </h4>",
+      "                    <mat-radio-button class=\"example-margin\" value=\"sw\" i18n=\"@@coordinate-type-modal:southwest\">Southwest</mat-radio-button>",
+      "                    <mat-radio-button class=\"example-margin\" value=\"nw\" i18n=\"@@coordinate-type-modal:northwest\">Northwest</mat-radio-button>",
+      "                    <mat-radio-button class=\"example-margin\" value=\"ne\" i18n=\"@@coordinate-type-modal:northeast\">Northeast</mat-radio-button>",
+      "                    <mat-radio-button class=\"example-margin\" value=\"se\" i18n=\"@@coordinate-type-modal:southeast\">Southeast</mat-radio-button>",
+      "                    <mat-radio-button class=\"example-margin\" value=\"center\" i18n=\"@@coordinate-type-modal:center\">Center</mat-radio-button>",
+      "        <h4 i18n=\"@@coordinate-type-modal:size-measurement\"> Specify size measurement </h4>",
+      "            <mat-radio-button class=\"example-margin\" value=\"edgeLength\" i18n=\"@@coordinate-type-modal:size-measurement-edge-length\">Edge Length</mat-radio-button>",
+      "            <mat-radio-button class=\"example-margin\" value=\"area\" i18n=\"@@coordinate-type-modal:size-measurement-area\">Area</mat-radio-button>",
+      "            <h4 i18n=\"@@coordinate-type-modal:specify-size\"> Specify size </h4>",
+      "                <input type=\"number\" matInput i18n-placeholder=\"@@coordinate-type-modal:square:area\" placeholder=\"Area (meters squared)\" [(ngModel)]=\"selection.area\">",
+      "                <input  type=\"number\" matInput i18n-placeholder=\"@@coordinate-type-modal:square:edge-length\" placeholder=\"Edge Length (meters)\" [(ngModel)]=\"selection.edgeLength\">",
+      "            <mat-hint i18n=\"@@coordinate-type-modal:size-hint\"> If you don't know the size of your study area, consider uploading your data as an occurrence dataset instead. </mat-hint>",
+      "        <h4 i18n=\"@@coordinate-type-modal:position-title\"> Position of coordinate in study area </h4>",
+      "        <h4 i18n=\"@@coordinate-type-modal:size-measurement\"> Specify size measurement </h4>",
+      "        <h4 i18n=\"@@coordinate-type-modal:specify-size\"> Specify size </h4>",
+      "            <button mat-button (click)=\"cancel()\" color=\"primary\" i18n=\"@@cancel\"> Cancel </button>",
+      "            <button [disabled]=\"!isValid()\" (click)=\"save()\" mat-button class=\"mol-button primary basic\" i18n=\"@@save\">Save</button>"
+    ]
+  }
+}

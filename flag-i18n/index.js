@@ -4,8 +4,7 @@ const findInFiles = require('find-in-files');
 
 const fs = require("fs");
 
-const matches = require('./matches.js').config;
-
+const matches = require('./matches.json');
 const fileList = Object.keys(matches);
 
 const matchingRegex1 = /i18n=\".+?(?=\")"/gi;
@@ -17,8 +16,12 @@ const matchingRegex6 = /i18n-label=\".+?(?=\")"/gi;
 
 // findInFiles.findSync("i18n", "../upload/src/app")
 //     .then((results) => {
-//         console.log(results);
+//         fs.writeFileSync('./flag-i18n/matches.json', JSON.stringify(results, null, 2));
 //     });
+
+function escapeRegExp(s) {
+  return s.replace(/[-/\\^$*+?.()|[\]{}]/g, "\\$&");
+}
 
 function processFile(file) {
     let contents = fs.readFileSync(file, 'utf8');
@@ -53,10 +56,12 @@ function processFile(file) {
         i18nReferences = [...i18nReferences, ...matches6]
     }
 
-    console.log(i18nReferences);
+    let instancesOfRefs = {};
 
     // for each reference of i18n=
     for (let ref of i18nReferences) {
+        instancesOfRefs[ref] = (instancesOfRefs[ref]) ? instancesOfRefs[ref] + 1 : 1;
+
         let addThis = ref
             .replace('i18n=', 'data-i18n=')
             .replace('i18n-tooltip=', 'data-i18n=')
@@ -65,14 +70,20 @@ function processFile(file) {
             .replace('i18n-label=', 'data-i18n=')
             .replace('i18n-placeholder=', 'data-i18n=')
             .replace('@@','');
-        contents = contents.replace(ref, ref + ' ' + addThis);
+        let t = 0;
+        let regexRef = new RegExp(escapeRegExp(ref), 'g');
+        contents = contents.replace(regexRef, function(match) {
+          t++;
+          return t === instancesOfRefs[ref] ? ref + " " + addThis : match;
+        });
     }
 
     fs.writeFileSync(file, contents);
 }
 
-for(let file of fileList) {
-    processFile(file);
-}
 
-// processFile(fileList[0]);
+// for(let file of fileList) {
+//     processFile(file);
+// }
+
+processFile('../upload/src/app/components/coordinate-type-modal/coordinate-type-modal.component.html');
